@@ -1,5 +1,5 @@
 ---
-question: Why does my dog eat grass?
+question: Why do dogs eat grass?
 summary: Grass eating is common and usually harmless, but watch for sudden changes or signs of illness.
 category: Nutrition
 references:
@@ -24,6 +24,7 @@ references:
 ---
 
 Many dogs eat grass, and in most cases it is normal behaviour.
+The behaviour is also observed in wolves, the ancestors of dogs.
 
 ## What the research shows
 
