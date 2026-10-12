@@ -7,32 +7,39 @@ description: Who writes this site, and why dogs.
 
 I like dogs a lot, but I am allergic to them and I never thought I would have the pleasure
 of having one as my companion.
-This all changed when a friend let me keep Whiskeys older brother "Tequila" with a few days.
-To my great pleasure, I learned that my allergy is not triggered by poodles.
+This all changed when a friend let me keep the mini poodle called "Tequila" for a few days in my home.
+I did not have an allergic reaction!
 
-In 2025, I got my first dog - a Mini Poodle called: "Whisky":
+In 2025, I got my first dog - from the same mother as "Tequila".
+Meet "Whisky", my poodle:
 
 ![My dog Whisky](/whisky.webp)
 
-And I had NO idea how to take care of this little guy.
-Pet don't come with a manual - and they can't always tell us how they feel.
-We also have a tendency to anthromorphise them: Dog language is not the same as human language.
-Ever since Whisky came to live in my house - I have been frantically trying to understand
-dogs better - with science and by observing what he does.
+This is when I realised I had NO idea how to take care of this little guy.
+Pet don't come with a user manual.
+We also have a tendency to anthromorphise them: Dog language is not the same as human language - our furry friend can't always tell us what is wrong.
+Ever since Whisky moved into my house - I have been frantically trying to understand
+him better - with science and by observing what he does.
+The site you are on is the results of this search for truth.
 
-Whisky is intolerant to some proteins and I am currently trying to figure out which ones.
+## Misaligned Incentives
+
+Whisky is intolerant to at least one protein.
+I am currently trying to figure out which ones.
 As I am writing this - he is 1.5 years old and has already had three, expensive visits to the hospital.
-We love our pets and would do anything for them.
-And because we do, I quickly learned that vets - bless them - have grossly misaligned incentives when it comes to providing care for your dog.
-Yes, they want to do everything they can to keep Whisky healty.
+We love our pets and would do anything for them - vets know this.
+Unfortunately, pet hospitals are big business that isn't funded by the tax payer (at least not
+here in Estonia).
+
+I trust that the vets I have used want to do everything they can to keep Whisky healty.
 But, it just so happens that they are also the only vendor in town who sells the hydrolysed,
 protein kibble he has to eat during his elimination diet.
+The same pet food vendors that also sponsor much research.
 And since you are at the hospital anyway - why don't we just sell you this extra medicine "just in case".
-There also appears to be some rather heavy incentives in place for pet food manufacturer to
-have vets sell their products - and to sponsor research.
+I found advise to be highly generic compared and often focused on symptom treatment and
+not root causing the problem.
 
-But it is not just vets.
-Breeders, dog toy/food stores and almost every other dog owner has their own "theory"
+Breeders, dog toy/food stores and almost every other dog owner also has their own "theory"
 of what is best for your dog.
 Is it raw food or kibble?
 And the hippie nonsense about "natural" foods (hint: your dog is already the most unnatural, genetically engineered creature to walk this planet).
