@@ -1,7 +1,7 @@
 ---
 question: 'Which substances are toxic to dogs?'
 summary: 'Several everyday foods, medicines and household products are poisonous to dogs.'
-category: Nutrition
+category: Nutrition and feeding
 references:
   - authors: 'Cortinovis C. & Caloni F.'
     year: 2016

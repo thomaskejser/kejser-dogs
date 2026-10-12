@@ -9,7 +9,7 @@ export type Reference = {
 	openAccess: boolean;
 };
 
-export const categories = ['Nutrition', 'Aging', 'Care'] as const;
+export const categories = ['Nutrition and feeding', 'Aging', 'Care', 'Breeds'] as const;
 
 export type Category = (typeof categories)[number];
 

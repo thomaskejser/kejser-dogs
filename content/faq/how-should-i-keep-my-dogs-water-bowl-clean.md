@@ -1,7 +1,7 @@
 ---
 question: How should I keep my dog's water bowl clean?
 summary: 'Wash it often with hot water or in a dishwasher. Bacteria, including drug-resistant ones, grow in pet bowls, and fountains are not proven to be cleaner or to make dogs drink more.'
-category: Care
+category: Nutrition and feeding
 references:
   - authors: Raspa F. et al.
     year: 2023

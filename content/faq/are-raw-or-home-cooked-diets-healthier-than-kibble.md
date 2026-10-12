@@ -1,7 +1,7 @@
 ---
 question: Are raw or home-cooked diets healthier than kibble?
 summary: No study shows that raw, home-cooked or fresh diets make dogs healthier or live longer than complete commercial kibble. Raw food often carries Salmonella and resistant bacteria, and most home-made recipes are unbalanced.
-category: Nutrition
+category: Nutrition and feeding
 references:
   - authors: Algya K. M. et al.
     year: 2018

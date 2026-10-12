@@ -1,7 +1,7 @@
 ---
 question: Why do dogs eat grass?
 summary: Grass eating is common and usually harmless, but watch for sudden changes or signs of illness.
-category: Nutrition
+category: Nutrition and feeding
 references:
   - authors: Sueda K. L. C., Hart B. L. & Cliff K. D.
     year: 2008

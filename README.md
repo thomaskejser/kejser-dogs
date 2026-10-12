@@ -19,7 +19,7 @@ The front page lists every question by category; each question has its own URL a
   ---
   question: Can dogs eat grapes?
   summary: No. Grapes and raisins can cause kidney failure in dogs.
-  category: Nutrition
+  category: Nutrition and feeding
   references:
     - authors: Smith A. et al.
       year: 2020
@@ -45,7 +45,7 @@ The front page lists every question by category; each question has its own URL a
 - Quote a `title` that contains a colon.
 - Check every new DOI resolves to the right paper before adding it.
 - The answer body must not be empty.
-- `category` is one of `Nutrition`, `Aging` or `Care`, defined in `src/lib/faq.ts`; the front page shows them in that order.
+- `category` is one of `Nutrition and feeding`, `Aging`, `Care` or `Breeds`, defined in `src/lib/faq.ts`; the front page shows them in that order.
 
 ## Other pages
 

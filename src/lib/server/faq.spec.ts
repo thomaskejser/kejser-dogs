@@ -5,7 +5,7 @@ import { allFaqs, faqsByCategory, findFaq, linkFaqs, parseFaq } from './faq';
 const valid = `---
 question: Can dogs eat grapes?
 summary: No. Grapes are toxic to dogs.
-category: Nutrition
+category: Nutrition and feeding
 references:
   - authors: Smith A. et al.
     year: 2020
@@ -25,7 +25,7 @@ describe('parseFaq', () => {
 			slug: 'grapes',
 			question: 'Can dogs eat grapes?',
 			summary: 'No. Grapes are toxic to dogs.',
-			category: 'Nutrition'
+			category: 'Nutrition and feeding'
 		});
 		expect(faq.html).toContain('<strong>kidney failure</strong>');
 		expect(faq.references).toEqual([
@@ -43,12 +43,15 @@ describe('parseFaq', () => {
 	});
 
 	it('rejects a question with neither category nor parent', () => {
-		const source = valid.replace('category: Nutrition\n', '');
+		const source = valid.replace('category: Nutrition and feeding\n', '');
 		expect(() => parseFaq('grapes', source)).toThrow(/needs a category, or a parent/);
 	});
 
 	it('rejects a question with both category and parent', () => {
-		const source = valid.replace('category: Nutrition', 'category: Nutrition\nparent: toxins');
+		const source = valid.replace(
+			'category: Nutrition and feeding',
+			'category: Nutrition and feeding\nparent: toxins'
+		);
 		expect(() => parseFaq('grapes', source)).toThrow(/either a category or a parent/);
 	});
 
@@ -58,7 +61,10 @@ describe('parseFaq', () => {
 	});
 
 	it('rejects unknown front matter fields', () => {
-		const source = valid.replace('category: Nutrition', 'category: Nutrition\nauthor: Rex');
+		const source = valid.replace(
+			'category: Nutrition and feeding',
+			'category: Nutrition and feeding\nauthor: Rex'
+		);
 		expect(() => parseFaq('grapes', source)).toThrow(/unknown front matter field\(s\): author/);
 	});
 
@@ -68,9 +74,9 @@ describe('parseFaq', () => {
 	});
 
 	it('rejects a category outside the fixed list', () => {
-		const source = valid.replace('category: Nutrition', 'category: Health');
+		const source = valid.replace('category: Nutrition and feeding', 'category: Health');
 		expect(() => parseFaq('grapes', source)).toThrow(
-			/category "Health" is not one of Nutrition, Aging, Care/
+			/category "Health" is not one of Nutrition and feeding, Aging, Care, Breeds/
 		);
 	});
 
@@ -86,18 +92,21 @@ describe('parseFaq', () => {
 
 function faq(slug: string, frontMatter: string, body = 'Body.'): string {
 	return valid
-		.replace('category: Nutrition', frontMatter)
+		.replace('category: Nutrition and feeding', frontMatter)
 		.replace('Grapes and raisins can cause **kidney failure**.', body);
 }
 
 describe('linkFaqs', () => {
-	const hub = parseFaq('toxins', faq('toxins', 'category: Nutrition', '- [Grapes](/faq/grapes)'));
+	const hub = parseFaq(
+		'toxins',
+		faq('toxins', 'category: Nutrition and feeding', '- [Grapes](/faq/grapes)')
+	);
 	const child = parseFaq('grapes', faq('grapes', 'parent: toxins'));
 
 	it("gives a child its parent and its parent's category", () => {
 		const linked = linkFaqs([hub, child]);
 		expect(linked.find((item) => item.slug === 'grapes')).toMatchObject({
-			category: 'Nutrition',
+			category: 'Nutrition and feeding',
 			parent: { slug: 'toxins', question: 'Can dogs eat grapes?' }
 		});
 		expect(linked.find((item) => item.slug === 'toxins')?.parent).toBeUndefined();
@@ -121,12 +130,18 @@ describe('linkFaqs', () => {
 	});
 
 	it('rejects a parent that does not link to its child', () => {
-		const silentHub = parseFaq('toxins', faq('toxins', 'category: Nutrition', 'No links.'));
+		const silentHub = parseFaq(
+			'toxins',
+			faq('toxins', 'category: Nutrition and feeding', 'No links.')
+		);
 		expect(() => linkFaqs([silentHub, child])).toThrow(/does not link to its child "grapes"/);
 	});
 
 	it('rejects a link to a question that does not exist', () => {
-		const broken = parseFaq('toxins', faq('toxins', 'category: Nutrition', '[x](/faq/nope)'));
+		const broken = parseFaq(
+			'toxins',
+			faq('toxins', 'category: Nutrition and feeding', '[x](/faq/nope)')
+		);
 		expect(() => linkFaqs([broken])).toThrow(/links to missing question\(s\): nope/);
 	});
 });

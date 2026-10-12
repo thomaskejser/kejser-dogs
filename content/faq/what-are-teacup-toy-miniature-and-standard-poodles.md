@@ -1,7 +1,7 @@
 ---
 question: What counts as a teacup, toy, miniature or standard poodle?
 summary: 'Poodle sizes are set by the adult dog''s own height at the shoulder, not by weight or by its parents'' size: roughly under 25–28 cm is a toy, up to 35–38 cm a miniature, and anything taller a standard. "Teacup" is a sales term, not a recognised size.'
-category: Care
+category: Breeds
 references:
   - authors: Sutter N. B. et al.
     year: 2007
