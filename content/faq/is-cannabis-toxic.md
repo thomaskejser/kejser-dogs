@@ -124,7 +124,7 @@ Most dogs are monitored until the effects wear off, often at home, and most reco
 
 ## Will my vet report me?
 
-Generally not: vets must keep what you tell them confidential, and we found no law that requires them to report cannabis use or a pet's exposure.
+Generally not: vets must keep what you tell them confidential, and I found no law that requires them to report cannabis use or a pet's exposure.
 Suspected animal abuse is the exception.
 This is general information, not legal advice, and rules differ between countries and states.
 
@@ -132,7 +132,7 @@ This is general information, not legal advice, and rules differ between countrie
 - **Some laws back this up**: in California, a vet [may not disclose](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=4857) information about a client or patient except in listed cases, such as with consent or under a court order or subpoena.
   In Germany, a vet who reveals a client's secrets [commits a crime](https://www.gesetze-im-internet.de/stgb/__203.html).
   In the EU and UK, data protection law ([GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)) also protects client data.
-- **No duty to report drug use was found**: we found no US or European law that requires vets to report a client's cannabis use or a pet's exposure, though we could not check every state and country.
+- **No duty to report drug use was found**: I found no US or European law that requires vets to report a client's cannabis use or a pet's exposure, though I could not check every state and country.
 - **Abuse is a separate matter**: about [24 US states](https://www.animallaw.info/topic/table-veterinary-reporting-requirement-and-immunity-laws) require vets to report suspected cruelty or neglect, and the RCVS lets UK vets break confidentiality when an animal is at real risk of harm.
   These duties concern deliberate harm or neglect, not an accident.
 - **A few rules go further**: New Mexico's veterinary rules say that reporting ["cruelty or illegal action"](https://www.animallaw.info/administrative/nm-veterinary-reporting-162538-conduct) is not a breach of confidentiality, so a vet there may report, though they are not required to.

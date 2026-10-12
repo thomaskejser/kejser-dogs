@@ -159,7 +159,7 @@ Veterinary [guidelines](https://doi.org/10.5326/JAAHA-MS-6933) recommend choosin
 - **Use toothpaste made for dogs, never your own.**
   Some human toothpastes [contain xylitol](https://doi.org/10.2147/CCIDE.S55761), which is [toxic to dogs](/faq/is-xylitol-toxic).
   Human toothpaste also contains fluoride, and in children [dental products are a major source](https://doi.org/10.1177/00220345900690S108) of swallowed fluoride; many contain enough to reach a toxic dose for a young child.
-  We found no study of fluoride toothpaste in dogs, but a dog swallows the toothpaste rather than spitting it out, so it is not worth the risk.
+  I found no study of fluoride toothpaste in dogs, but a dog swallows the toothpaste rather than spitting it out, so it is not worth the risk.
 - **Start slowly.** Let your dog get used to the taste of the toothpaste and to having its mouth handled before you use a brush; this is common advice rather than something trials have tested.
 - **Be gentle with sore gums.** Brushing already inflamed gums [hurts](https://doi.org/10.5326/JAAHA-MS-6933) and can put your dog off; have your vet check the mouth first.
 - **Brushing removes plaque, not tartar.** Hard, brown tartar has to be removed by a vet.
