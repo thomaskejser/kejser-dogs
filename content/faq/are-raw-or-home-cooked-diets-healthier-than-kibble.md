@@ -1,6 +1,6 @@
 ---
 question: Are raw or home-cooked diets healthier than kibble?
-summary: No study shows that raw, home-cooked or fresh diets make dogs healthier or live longer than complete commercial kibble. Raw food often carries Salmonella and resistant bacteria, and most home-made recipes are unbalanced.
+summary: No study shows that raw, home-cooked or fresh diets make dogs healthier or live longer than complete commercial kibble. In most small trials, dogs on raw or fresh food produced less faeces than on kibble, which shows the food was digested more completely, not that the dogs were healthier. Raw food often carries Salmonella and resistant bacteria, and most home-made recipes are unbalanced.
 category: Nutrition and feeding
 references:
   - authors: Algya K. M. et al.
@@ -15,6 +15,18 @@ references:
     journal: Journal of Animal Science
     doi: 10.1093/jas/skab028
     openAccess: false
+  - authors: Geary E. L. et al.
+    year: 2024
+    title: Apparent total tract nutrient digestibility of frozen raw, freeze-dried raw, fresh, and extruded dog foods and their effects on serum metabolites and fecal characteristics, metabolites, and microbiota of healthy adult dogs
+    journal: Translational Animal Science
+    doi: 10.1093/tas/txae163
+    openAccess: true
+  - authors: Bermingham E. N. et al.
+    year: 2017
+    title: Key bacterial families (Clostridiaceae, Erysipelotrichaceae and Bacteroidaceae) are related to the digestion of protein and energy in dogs
+    journal: PeerJ
+    doi: 10.7717/peerj.3019
+    openAccess: true
   - authors: Sandri M. et al.
     year: 2017
     title: Raw meat based diet influences faecal microbiome and end products of fermentation in healthy dogs
@@ -158,9 +170,23 @@ What the research does show is narrower:
   In a [trial of eight dogs](https://doi.org/10.1093/jas/sky235) that each ate kibble, two lightly cooked diets and a raw diet for four weeks, dogs digested more of the protein and fat in the lightly cooked diets than in kibble.
   All four diets were well tolerated, stool quality did not differ, and all dogs stayed healthy.
   One author worked for Freshpet, a maker of lightly cooked dog food.
-- **Dogs on kibble produce more faeces.**
-  In a [similar trial of 12 dogs](https://doi.org/10.1093/jas/skab028), dogs eating kibble needed more food to hold their weight and produced 1.5 to 2.9 times as much faeces as dogs on fresh or human-grade food.
+- **Dogs on fresh cooked food produce less faeces than dogs on kibble.**
+  In a [similar trial of 12 dogs](https://doi.org/10.1093/jas/skab028), dogs eating kibble needed more food to hold their weight and produced 1.5 to 2.9 times as much faeces as dogs on lightly cooked fresh or human-grade food.
+  None of the diets was raw.
   Stool scores, blood chemistry and blood counts were not greatly affected by diet.
+  The trial was funded by JustFoodForDogs, which made two of the foods.
+- **Dogs on raw food usually produce less faeces than dogs on kibble.**
+  In a [trial of 10 Beagles](https://doi.org/10.1093/tas/txae163) that each ate kibble, a lightly cooked fresh food and three raw foods for five weeks, dogs produced 90 g of faeces a day on kibble and 37 to 40 g on raw food.
+  Dried, that was 25 g against 13 to 15 g.
+  On the fresh food they produced 56 g, but the same dry weight as on raw food; the difference was water.
+  The trial was funded by Primal, which made two of the raw foods, and one author works there.
+  In a [nine-week trial of 15 hounds](https://doi.org/10.7717/peerj.3019), dogs fed kibble produced about 200 g of faeces a day and dogs fed raw red meat about 56 g, or roughly 65 g against 28 g dried.
+  Each dog ate only one of the diets, and the kibble-fed dogs ate more dry food.
+  Makers of raw and air-dried dog food contributed to the funding.
+  In the [eight-dog trial](https://doi.org/10.1093/jas/sky235), raw food did not reduce faeces: dogs produced 102 g a day on raw food and 84 g on kibble, and the same dry weight of about 29 g on both.
+
+These trials were small and short, and pet food makers helped pay for all of them.
+Less faeces means more of the food was digested; none of the trials measured whether that makes dogs healthier.
 
 ### Gut bacteria
 
