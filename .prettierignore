@@ -7,6 +7,3 @@ bun.lockb
 
 # Miscellaneous
 /static/
-
-# Copied unchanged from the kejser-web:cpanel skill
-scripts/deploy-cpanel.ts
