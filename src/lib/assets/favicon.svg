@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 4 60 60">
+	<title>Puppy</title>
+	<ellipse cx="12" cy="30" rx="8.5" ry="16" fill="#8a5a35" transform="rotate(22 12 30)"/>
+	<ellipse cx="52" cy="30" rx="8.5" ry="16" fill="#8a5a35" transform="rotate(-22 52 30)"/>
+	<circle cx="32" cy="34" r="21" fill="#d9a066"/>
+	<ellipse cx="40.5" cy="30" rx="7" ry="7.5" fill="#b77a45"/>
+	<ellipse cx="32" cy="45" rx="12.5" ry="9.5" fill="#f6e6cf"/>
+	<circle cx="24" cy="31" r="3.4" fill="#3b2a1e"/>
+	<circle cx="40" cy="31" r="3.4" fill="#3b2a1e"/>
+	<circle cx="25.1" cy="29.9" r="1.1" fill="#fff"/>
+	<circle cx="41.1" cy="29.9" r="1.1" fill="#fff"/>
+	<path d="M30 49.6q2 6.4 4 0z" fill="#e8737a"/>
+	<path d="M32 42v4.5M26 48q6 5 6-2q0 7 6 2" fill="none" stroke="#3b2a1e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+	<ellipse cx="32" cy="40.5" rx="4.6" ry="3.3" fill="#3b2a1e"/>
+	<ellipse cx="30.6" cy="39.4" rx="1.4" ry="0.8" fill="#fff" opacity="0.6"/>
+</svg>

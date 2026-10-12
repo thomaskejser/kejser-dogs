@@ -1,0 +1,91 @@
+@layer tokens {
+	:root {
+		color-scheme: light dark;
+
+		--palette-bark: oklch(32% 0.04 60);
+		--palette-cream: oklch(98% 0.01 85);
+		--palette-sand: oklch(93% 0.025 80);
+		--palette-night: oklch(19% 0.015 60);
+		--palette-dusk: oklch(25% 0.02 60);
+		--palette-amber: oklch(52% 0.13 55);
+		--palette-amber-light: oklch(78% 0.12 65);
+		--palette-red: oklch(52% 0.18 27);
+		--palette-red-light: oklch(72% 0.15 27);
+		--palette-green: oklch(50% 0.12 145);
+		--palette-green-light: oklch(75% 0.13 145);
+
+		--surface: light-dark(var(--palette-cream), var(--palette-night));
+		--surface-raised: light-dark(white, var(--palette-dusk));
+		--surface-highlight: color-mix(in oklab, var(--accent) 12%, var(--surface));
+		--surface-sunken: light-dark(var(--palette-sand), oklch(15% 0.01 60));
+		--text: light-dark(var(--palette-bark), oklch(93% 0.015 80));
+		--text-muted: color-mix(in oklab, var(--text) 70%, var(--surface));
+		--border: color-mix(in oklab, var(--text) 18%, var(--surface));
+		--border-strong: color-mix(in oklab, var(--text) 40%, var(--surface));
+		--accent: light-dark(var(--palette-amber), var(--palette-amber-light));
+		--on-accent: light-dark(white, var(--palette-night));
+		--danger: light-dark(var(--palette-red), var(--palette-red-light));
+		--ok: light-dark(var(--palette-green), var(--palette-green-light));
+		--warn: var(--accent);
+		--focus: var(--accent);
+		--backdrop-ink: color-mix(in oklab, var(--accent) 30%, var(--surface));
+
+		--font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+		--font-heading: ui-serif, Georgia, 'Times New Roman', serif;
+		--font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+		--size-sm: 0.875rem;
+		--size-md: 1rem;
+		--size-lg: clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem);
+		--size-xl: clamp(1.25rem, 1.1rem + 0.7vw, 1.5rem);
+		--size-2xl: clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem);
+		--size-3xl: clamp(1.875rem, 1.4rem + 2.2vw, 3rem);
+		--leading-tight: 1.2;
+		--leading-body: 1.6;
+		--weight-bold: 650;
+		--tracking-label: 0.06em;
+
+		--space-3xs: 0.125rem;
+		--space-2xs: 0.25rem;
+		--space-xs: 0.5rem;
+		--space-sm: 0.75rem;
+		--space-md: 1rem;
+		--space-lg: 1.5rem;
+		--space-xl: 2rem;
+		--space-2xl: 3rem;
+		--space-3xl: 4.5rem;
+
+		--radius-sm: 0.25rem;
+		--radius-md: 0.5rem;
+		--radius-lg: 1rem;
+		--radius-round: 999px;
+
+		--border-width: 1px;
+		--focus-width: 3px;
+		--accent-rule-width: 4px;
+		--disabled-opacity: 0.5;
+
+		--duration-fast: 120ms;
+		--duration-base: 200ms;
+		--duration-slow: 400ms;
+
+		--measure: 65ch;
+		--page-width: 48rem;
+		--page-gutter: clamp(1rem, 4vw, 2rem);
+		--tap-target: 2.75rem;
+		--layer-sticky: 10;
+		--layer-backdrop: -1;
+
+		--backdrop-art-start: url('../assets/backdrop-start.svg');
+		--backdrop-art-end: url('../assets/backdrop-end.svg');
+		--backdrop-tile-width: 20rem;
+	}
+
+	:root[data-theme='light'] {
+		color-scheme: light;
+	}
+
+	:root[data-theme='dark'] {
+		color-scheme: dark;
+	}
+}

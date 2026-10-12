@@ -1,0 +1,20 @@
+@layer base {
+	button {
+		min-block-size: var(--tap-target);
+		padding-inline: var(--space-md);
+		border: var(--border-width) solid transparent;
+		border-radius: var(--radius-md);
+		background: var(--accent);
+		color: var(--on-accent);
+		cursor: pointer;
+
+		&:hover {
+			background: color-mix(in oklab, var(--accent) 85%, var(--text));
+		}
+
+		&:disabled {
+			opacity: var(--disabled-opacity);
+			cursor: not-allowed;
+		}
+	}
+}

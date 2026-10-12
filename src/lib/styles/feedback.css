@@ -1,0 +1,48 @@
+@layer components {
+	[role='alert'] {
+		--tone: var(--accent);
+
+		padding: var(--space-md) var(--space-lg);
+		border-inline-start: var(--accent-rule-width) solid var(--tone);
+		border-radius: var(--radius-md);
+		background: color-mix(in oklab, var(--tone) 10%, var(--surface));
+	}
+
+	[role='alert'][data-tone='danger'] {
+		--tone: var(--danger);
+	}
+
+	.short-answer {
+		padding: var(--space-md) var(--space-lg);
+		border-inline-start: var(--accent-rule-width) solid var(--accent);
+		border-radius: var(--radius-md);
+		background: var(--surface-highlight);
+
+		& h2 {
+			font-family: var(--font-body);
+			font-size: var(--size-sm);
+			font-weight: var(--weight-bold);
+			letter-spacing: var(--tracking-label);
+			text-transform: uppercase;
+			color: var(--text-muted);
+		}
+
+		& p {
+			margin-block-start: var(--space-2xs);
+			font-size: var(--size-lg);
+		}
+	}
+
+	details {
+		border: var(--border-width) solid var(--border);
+		border-radius: var(--radius-md);
+		padding-inline: var(--space-md);
+	}
+
+	summary {
+		display: flex;
+		align-items: center;
+		min-block-size: var(--tap-target);
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 960">
+	<defs>
+		<path id="bone" d="M-30 -7H30A10 10 0 1 1 46 0A10 10 0 1 1 30 7H-30A10 10 0 1 1 -46 0A10 10 0 1 1 -30 -7Z"/>
+		<g id="paw">
+			<ellipse cx="0" cy="9" rx="13" ry="11"/>
+			<ellipse cx="-17" cy="-6" rx="4.5" ry="6.5" transform="rotate(-30 -17 -6)"/>
+			<ellipse cx="-6.5" cy="-15" rx="4.5" ry="6.5" transform="rotate(-10 -6.5 -15)"/>
+			<ellipse cx="6.5" cy="-15" rx="4.5" ry="6.5" transform="rotate(10 6.5 -15)"/>
+			<ellipse cx="17" cy="-6" rx="4.5" ry="6.5" transform="rotate(30 17 -6)"/>
+		</g>
+		<g id="ball" fill="none" stroke-width="3">
+			<circle r="26"/>
+			<path d="M-23 -12C-9 -5 -9 5 -23 12M23 -12C9 -5 9 5 23 12"/>
+		</g>
+	</defs>
+	<g fill="#000" stroke="#000">
+		<circle cx="130" cy="330" r="110" stroke="none" fill-opacity="0.11"/>
+		<circle cx="245" cy="800" r="100" stroke="none" fill-opacity="0.12"/>
+		<circle cx="70" cy="90" r="38" fill="none" stroke-width="2" stroke-opacity="0.35"/>
+		<path d="M160 0C160 130 280 170 260 320C240 470 60 480 80 640C100 800 160 820 160 960" fill="none" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12" stroke-opacity="0.55"/>
+		<use href="#bone" transform="translate(205 215) rotate(32)" stroke="none"/>
+		<use href="#bone" transform="translate(95 560) rotate(-18) scale(0.85)" fill="none" stroke-width="3.5"/>
+		<use href="#bone" transform="translate(250 905) rotate(-55) scale(0.55)" stroke="none" fill-opacity="0.6"/>
+		<use href="#ball" transform="translate(240 470) scale(0.8)"/>
+		<use href="#ball" transform="translate(150 730) scale(1.25)" stroke-opacity="0.4"/>
+		<g transform="translate(95 870)" stroke="none">
+			<path d="M-44 -6H44L33 22H-33Z" fill-opacity="0.7"/>
+			<rect x="-50" y="-14" width="100" height="9" rx="4.5"/>
+			<use href="#bone" transform="translate(0 -26) scale(0.45)" fill-opacity="0.5"/>
+		</g>
+		<use href="#paw" transform="translate(60 230) rotate(20) scale(0.55)" stroke="none" fill-opacity="0.7"/>
+		<use href="#paw" transform="translate(100 175) rotate(20) scale(0.55)" stroke="none" fill-opacity="0.5"/>
+		<use href="#paw" transform="translate(55 120) rotate(20) scale(0.55)" stroke="none" fill-opacity="0.3"/>
+		<use href="#paw" transform="translate(220 620) rotate(-10) scale(0.9)" stroke="none" fill-opacity="0.3"/>
+		<g stroke="none" fill-opacity="0.4">
+			<circle cx="250" cy="40" r="3"/><circle cx="266" cy="40" r="3"/><circle cx="282" cy="40" r="3"/>
+			<circle cx="250" cy="56" r="3"/><circle cx="266" cy="56" r="3"/><circle cx="282" cy="56" r="3"/>
+			<circle cx="250" cy="72" r="3"/><circle cx="266" cy="72" r="3"/><circle cx="282" cy="72" r="3"/>
+		</g>
+	</g>
+</svg>

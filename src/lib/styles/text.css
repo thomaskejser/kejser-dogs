@@ -1,0 +1,147 @@
+@layer base {
+	body {
+		background: var(--surface);
+		color: var(--text);
+		font-family: var(--font-body);
+		font-size: var(--size-md);
+		line-height: var(--leading-body);
+		overflow-wrap: break-word;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family: var(--font-heading);
+		line-height: var(--leading-tight);
+		text-wrap: balance;
+	}
+
+	h1 {
+		font-size: var(--size-3xl);
+	}
+
+	h2 {
+		font-size: var(--size-2xl);
+	}
+
+	h3 {
+		font-size: var(--size-xl);
+	}
+
+	h4 {
+		font-size: var(--size-lg);
+	}
+
+	hgroup > p {
+		color: var(--text-muted);
+		font-size: var(--size-lg);
+		margin-block-start: var(--space-xs);
+	}
+
+	p,
+	li,
+	dd,
+	blockquote {
+		max-inline-size: var(--measure);
+		text-wrap: pretty;
+	}
+
+	ul,
+	ol {
+		padding-inline-start: var(--space-lg);
+	}
+
+	li + li {
+		margin-block-start: var(--space-2xs);
+	}
+
+	strong,
+	b,
+	dt {
+		font-weight: var(--weight-bold);
+	}
+
+	a:any-link {
+		color: var(--accent);
+		text-decoration-thickness: var(--border-width);
+		text-underline-offset: 0.2em;
+		transition: text-decoration-thickness var(--duration-fast);
+
+		&:hover {
+			text-decoration-thickness: var(--focus-width);
+		}
+	}
+
+	.references {
+		padding-block-start: var(--space-lg);
+		border-block-start: var(--border-width) solid var(--border);
+		font-size: var(--size-sm);
+
+		& h2 {
+			font-size: var(--size-xl);
+		}
+
+		& ol {
+			margin-block-start: var(--space-md);
+		}
+
+		& li + li {
+			margin-block-start: var(--space-sm);
+		}
+
+		& cite {
+			font-style: normal;
+		}
+
+		& a:any-link {
+			overflow-wrap: anywhere;
+		}
+	}
+
+	.reference-access {
+		color: var(--ok);
+		font-weight: var(--weight-bold);
+		white-space: nowrap;
+	}
+
+	.prose a:any-link {
+		overflow-wrap: anywhere;
+	}
+
+	code,
+	kbd,
+	pre {
+		font-family: var(--font-mono);
+		font-size: var(--size-sm);
+	}
+
+	code {
+		background: var(--surface-sunken);
+		border-radius: var(--radius-sm);
+		padding-inline: var(--space-2xs);
+	}
+
+	pre {
+		background: var(--surface-sunken);
+		border-radius: var(--radius-md);
+		padding: var(--space-md);
+		overflow-inline: auto;
+
+		& code {
+			background: none;
+			padding: 0;
+		}
+	}
+
+	blockquote {
+		border-inline-start: var(--accent-rule-width) solid var(--border-strong);
+		padding-inline-start: var(--space-md);
+		color: var(--text-muted);
+	}
+
+	hr {
+		border: none;
+		border-block-start: var(--border-width) solid var(--border);
+	}
+}

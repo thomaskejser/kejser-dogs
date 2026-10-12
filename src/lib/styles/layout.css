@@ -1,0 +1,125 @@
+@layer layout {
+	.app {
+		display: contents;
+	}
+
+	@media (min-width: 70rem) {
+		body::before,
+		body::after {
+			content: '';
+			position: fixed;
+			inset-block: 0;
+			inline-size: calc((100% - var(--page-width)) / 2 - var(--page-gutter));
+			z-index: var(--layer-backdrop);
+			pointer-events: none;
+			background: var(--backdrop-ink);
+			mask-repeat: repeat-y;
+			mask-position: center top;
+			mask-size: min(100%, var(--backdrop-tile-width)) auto;
+		}
+
+		body::before {
+			inset-inline-start: 0;
+			mask-image: var(--backdrop-art-start);
+		}
+
+		body::after {
+			inset-inline-end: 0;
+			mask-image: var(--backdrop-art-end);
+		}
+	}
+
+	.site-header,
+	main,
+	.site-footer {
+		inline-size: min(100% - 2 * var(--page-gutter), var(--page-width));
+		margin-inline: auto;
+	}
+
+	.site-header {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: var(--space-xs) var(--space-lg);
+		padding-block: var(--space-sm);
+		border-block-end: var(--border-width) solid var(--border);
+	}
+
+	main {
+		padding-block: var(--space-2xl);
+
+		& > * + * {
+			margin-block-start: var(--flow, var(--space-2xl));
+		}
+	}
+
+	article {
+		--flow: var(--space-lg);
+
+		& > * + * {
+			margin-block-start: var(--flow);
+		}
+	}
+
+	.prose > * + * {
+		margin-block-start: var(--space-md);
+	}
+
+	.prose > :is(h2, h3, h4) {
+		margin-block-start: var(--space-xl);
+	}
+
+	.faq-category {
+		& > * + * {
+			margin-block-start: var(--space-md);
+		}
+
+		& ul {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
+			gap: var(--space-md);
+			padding: 0;
+			list-style: none;
+		}
+	}
+
+	.faq-link {
+		position: relative;
+		margin: 0;
+		padding: var(--space-md) var(--space-lg);
+		background: var(--surface-raised);
+		border: var(--border-width) solid var(--border);
+		border-radius: var(--radius-lg);
+		transition: border-color var(--duration-fast);
+
+		&:has(a:hover) {
+			border-color: var(--accent);
+		}
+
+		& a:any-link {
+			font-weight: var(--weight-bold);
+			text-decoration: none;
+
+			&::after {
+				content: '';
+				position: absolute;
+				inset: 0;
+				border-radius: inherit;
+			}
+		}
+
+		& p {
+			margin-block-start: var(--space-2xs);
+			color: var(--text-muted);
+			font-size: var(--size-sm);
+		}
+	}
+
+	.site-footer {
+		padding-block: var(--space-xl);
+		border-block-start: var(--border-width) solid var(--border);
+		color: var(--text-muted);
+		font-size: var(--size-sm);
+	}
+}

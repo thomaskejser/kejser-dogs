@@ -1,0 +1,26 @@
+@layer base {
+	table {
+		display: block;
+		max-inline-size: 100%;
+		overflow-inline: auto;
+		border-collapse: collapse;
+		font-variant-numeric: tabular-nums;
+	}
+
+	th,
+	td {
+		padding: var(--space-xs) var(--space-sm);
+		border-block-end: var(--border-width) solid var(--border);
+		text-align: start;
+		vertical-align: top;
+	}
+
+	thead th {
+		border-block-end-color: var(--border-strong);
+		font-weight: var(--weight-bold);
+	}
+
+	tbody tr:nth-child(even) {
+		background: var(--surface-sunken);
+	}
+}
