@@ -1,6 +1,6 @@
 ---
 question: Does neutering help my dog live longer?
-summary: 'Probably a little for females: spayed females live about one to one and a half years longer in large studies, though part of that gap comes from bias. For males the benefit is small or absent, and in some large breeds, such as Rottweilers, neutering before one year is linked to a shorter life.'
+summary: 'Probably a little for females: in a large US study, spayed females that had reached 5 still lived about a year longer than intact ones, though part of any gap comes from bias. For males the benefit is small or absent, and in Rottweilers neutering before one year is linked to a shorter life.'
 category: Care
 references:
   - authors: O'Brien J. et al.
@@ -8,12 +8,6 @@ references:
     title: Genetic, epigenetic, and environmental factors influencing dog lifespan
     journal: Journal of Veterinary Science
     doi: 10.4142/jvs.25215
-    openAccess: true
-  - authors: Teng K. T. et al.
-    year: 2022
-    title: Life tables of annual life expectancy and mortality for companion dogs in the United Kingdom
-    journal: Scientific Reports
-    doi: 10.1038/s41598-022-10341-6
     openAccess: true
   - authors: Urfer S. R. et al.
     year: 2020
@@ -33,24 +27,6 @@ references:
     journal: 'The Journals of Gerontology: Series A'
     doi: 10.1093/gerona/glx061
     openAccess: true
-  - authors: Urfer S. R. & Kaeberlein M.
-    year: 2019
-    title: 'Desexing dogs: a review of the current literature'
-    journal: Animals
-    doi: 10.3390/ani9121086
-    openAccess: true
-  - authors: Trevejo R., Yang M. & Lund E. M.
-    year: 2011
-    title: Epidemiology of surgical castration of dogs and cats in the United States
-    journal: Journal of the American Veterinary Medical Association
-    doi: 10.2460/javma.238.7.898
-    openAccess: true
-  - authors: Egenvall A. et al.
-    year: 2001
-    title: Breed risk of pyometra in insured dogs in Sweden
-    journal: Journal of Veterinary Internal Medicine
-    doi: 10.1111/j.1939-1676.2001.tb01587.x
-    openAccess: false
   - authors: Beauvais W., Cardwell J. M. & Brodbelt D. C.
     year: 2012
     title: The effect of neutering on the risk of mammary tumours in dogs – a systematic review
@@ -62,12 +38,6 @@ references:
     title: The effect of neuter status on longevity in the Rottweiler dog
     journal: Scientific Reports
     doi: 10.1038/s41598-023-45128-w
-    openAccess: true
-  - authors: Waters D. J. et al.
-    year: 2009
-    title: 'Exploring mechanisms of sex differences in longevity: lifetime ovary exposure and exceptional longevity in dogs'
-    journal: Aging Cell
-    doi: 10.1111/j.1474-9726.2009.00513.x
     openAccess: true
   - authors: Hart B. L. et al.
     year: 2020
@@ -92,26 +62,23 @@ A [systematic review of 62 lifespan studies](https://doi.org/10.4142/jvs.25215) 
 
 ## What the large studies show
 
-| Study                                                          | Dogs                                                     | Females, intact vs spayed                       | Males, intact vs neutered                         |
-| -------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------- |
-| [UK life tables](https://doi.org/10.1038/s41598-022-10341-6)   | 30,563 dogs that died under UK primary vet care, 2016–20 | 10.5 vs 12.0 years life expectancy              | 10.6 vs 11.5 years life expectancy                |
-| [Three US clinics](https://doi.org/10.1186/s40575-020-00086-8) | 20,970 dogs at independent primary-care clinics          | Spayed females had a third of the risk of death | Neutered males had about 60% of the risk of death |
+Among [20,970 dogs at three independent US primary-care clinics](https://doi.org/10.1186/s40575-020-00086-8), spayed females had a third of the risk of death of intact females, and neutered males about 60% of the risk of intact males.
 
 In an older study of [70,574 dogs](https://doi.org/10.1371/journal.pone.0061082) that died at North American vet teaching hospitals between 1984 and 2004, neutered dogs died at 9.4 years on average and intact dogs at 7.9, with the sexes combined.
 Teaching hospitals see sicker dogs than ordinary clinics, which is why these ages are low.
 
 ### Females
 
-- In both studies in the table, spayed females lived longer than intact females, and the gap was larger than in males.
+- In both of these studies, neutered dogs lived longer, and in the US clinics the gap was larger in females than in males.
 - Across two large datasets, one American and one British, [neutered females outlived every other group](https://doi.org/10.1093/gerona/glx061).
   Among intact dogs, males lived slightly longer than females.
 - Much of the reason females live longer than males in general seems to be that more females are neutered.
 
 ### Males
 
-- The gain is smaller: about 0.9 years in the UK life tables, and smaller still once the biases below are allowed for.
+- The gain is smaller than in females, and smaller still once the biases below are allowed for.
 - In the US clinics, the benefit for males was [no longer statistically significant](https://doi.org/10.1186/s40575-020-00086-8) when only dogs that had reached 5 years were compared, after allowing for size and clinic.
-- A [2019 review](https://doi.org/10.3390/ani9121086) of the neutering literature called the evidence of a lifespan benefit in males inconsistent.
+- The systematic review found the [effect in males unclear](https://doi.org/10.4142/jvs.25215).
 
 ## Why the numbers are too big
 
@@ -123,18 +90,16 @@ A dog counts as neutered only if it lived to the day of the operation.
 Puppies that die of infection, accidents or birth defects before that day all land in the intact group, so the intact group looks shorter-lived even if the operation itself did nothing.
 Epidemiologists call this **immortal-time bias**.
 
-- The UK life tables show it: neutered dogs had a [noticeably lower risk of death](https://doi.org/10.1038/s41598-022-10341-6) in their first year of life, before many of them could have been neutered.
 - In Australian Rottweilers, this bias alone [added about 0.75 years](https://doi.org/10.1038/s41598-023-45128-w) to the median lifespan of spayed females counted from birth.
 - Across both American and British data, [most of the survival gap](https://doi.org/10.1093/gerona/glx061) came from deaths early in life; among old dogs, neutering made little difference.
 - The systematic review found that only [one study](https://doi.org/10.4142/jvs.25215) had dealt with this bias directly.
 
 ### Owners who neuter may also take better care of their dogs
 
-In the UK and US, neutering is widely seen as part of responsible ownership.
+In the US, neutering is widely seen as part of responsible ownership.
 Owners who neuter may also vaccinate, keep their dog on a lead, and go to the vet sooner.
 
-- Both the [UK](https://doi.org/10.1038/s41598-022-10341-6) and [US](https://doi.org/10.1186/s40575-020-00086-8) study authors say neutering may partly be a marker of better care.
-- Among 1.3 million dogs seen at 651 private US vet hospitals, dogs on a prepaid wellness plan were [a third more likely](https://doi.org/10.2460/javma.238.7.898) to be neutered.
+- The authors of the [US clinic study](https://doi.org/10.1186/s40575-020-00086-8) say neutering may partly be a marker of better care.
 - No study I found measured owner care well enough to remove this effect.
 
 ### What is left after the bias
@@ -152,17 +117,15 @@ Neutering does not just shift when dogs die; it changes what they die of.
 In the North American hospital data, neutered dogs were [less likely to die of infection and trauma, and more likely to die of cancer](https://doi.org/10.1371/journal.pone.0061082) and immune diseases.
 Part of the cancer shift is simply that longer-lived dogs reach the ages when cancer is common.
 
-| Condition                 | Effect of neutering                                                                                                                                                                                                                                                                    |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pyometra (womb infection) | Spaying prevents it. In a Swedish insurance database, [23–24% of female dogs](https://doi.org/10.1111/j.1939-1676.2001.tb01587.x) had had pyometra by age 10, from 10% to 54% depending on breed. It can kill without surgery.                                                         |
-| Mammary tumours           | About [13% of intact insured females](https://doi.org/10.3390/ani9121086) had them by age 10. Spaying is widely said to prevent them, but a systematic review judged the evidence [weak](https://doi.org/10.1111/j.1748-5827.2011.01220.x), as most studies were at high risk of bias. |
-| Prostate disease          | Castration prevents benign prostate enlargement, which is common in old intact males but rarely serious. The rare [malignant prostate cancer](https://doi.org/10.3390/ani9121086) is more common in neutered males.                                                                    |
-| Other cancers             | Neutered dogs of both sexes have [more](https://doi.org/10.3390/ani9121086) bone cancer (osteosarcoma), lymphoma, bladder cancer and haemangiosarcoma, a cancer of blood vessels. Many of these studies did not allow for age.                                                         |
-| Joints and weight         | Neutered dogs have more [cruciate ligament tears and obesity](https://doi.org/10.3390/ani9121086), and in some large breeds more hip and elbow dysplasia; see below.                                                                                                                   |
-| Other                     | Spayed females have more urinary incontinence, and neutering has been linked to [more and faster-progressing](https://doi.org/10.3390/ani9121086) cognitive decline in old age.                                                                                                        |
+| Condition                 | Effect of neutering                                                                                                                                                                                                                                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pyometra (womb infection) | Spaying prevents it. In records from a Californian vet teaching hospital, [up to 16% of intact females](https://doi.org/10.3389/fvets.2020.00388) were diagnosed with it while they were followed, depending on breed. It can kill without surgery.                                                                 |
+| Mammary tumours           | In the North American hospital data, mammary cancer was the [only one of eight cancers](https://doi.org/10.1371/journal.pone.0061082) that was rarer in neutered dogs. A systematic review judged the evidence [weak](https://doi.org/10.1111/j.1748-5827.2011.01220.x), as most studies were at high risk of bias. |
+| Other cancers             | Neutering has been [linked](https://doi.org/10.4142/jvs.25215) to more lymphoma, haemangiosarcoma (a cancer of blood vessels), mast cell tumours and bone cancer, but in the 35-breed study most breeds showed [no added cancer risk](https://doi.org/10.3389/fvets.2020.00388).                                    |
+| Joints                    | In several large breeds, neutering before 1 year goes with more [hip and elbow dysplasia and cruciate ligament tears](https://doi.org/10.3389/fvets.2020.00388); see below.                                                                                                                                         |
 
-For females, pyometra and possibly mammary cancer are common, serious and preventable, which fits a real lifespan benefit.
-Males have no equivalent common, life-threatening disease that castration prevents, which fits the weak evidence of a benefit in males.
+For females, pyometra and possibly mammary cancer are serious and preventable, which fits a real lifespan benefit.
+I found no independent study showing a common, life-threatening disease that castration prevents in males, which fits the weak evidence of a benefit in males.
 
 ## It depends on breed and on age at neutering
 
@@ -172,8 +135,6 @@ Most of the large studies lump all breeds together, and some breeds go the other
 
 - Among Rottweilers under primary vet care in Australia, the 207 neutered before 1 year [lived about 1.5 years less (males) and 1 year less (females)](https://doi.org/10.1038/s41598-023-45128-w) than the 3,085 intact dogs.
   The authors note that healthier dogs may be kept intact for breeding, which would flatter the intact group.
-- Among North American Rottweilers, females were [twice as likely as males](https://doi.org/10.1111/j.1474-9726.2009.00513.x) to reach 13 years or more, but only if they kept their ovaries for at least their first 4 years.
-  This study compared 119 very old dogs with 186 that died at a typical age, used owner interviews, and was funded partly by P&G Pet Care, a pet food maker at the time.
 - In the mixed-breed US clinic data, by contrast, spayed females that reached 8 still [outlived intact ones](https://doi.org/10.1186/s40575-020-00086-8), so the Rottweiler pattern may not apply to other breeds.
 
 ### Joint disease and cancer in other breeds
@@ -194,7 +155,6 @@ Norway's Animal Welfare Act ([dyrevelferdsloven §9](https://lovdata.no/dokument
 Read literally, that rules out neutering a healthy dog as a matter of routine; I have not checked how vets and authorities apply it in practice.
 
 That makes the Nordic countries a natural comparison, but I found no peer-reviewed study of how many Nordic dogs are neutered, and none comparing their lifespans with British or American dogs.
-The Swedish pyometra figures above show one cost of leaving females intact.
 
 ## When to neuter
 
@@ -205,7 +165,7 @@ The study gives breed-by-breed guidelines, but they rest on disease counts in on
 ## What this means for your dog
 
 - **Female:** spaying probably adds some life, mainly by preventing pyometra.
-  The real gain is likely well under the one and a half years in the raw numbers.
+  The real gain is likely less than the raw numbers suggest.
 - **Male:** castration is unlikely to add much life; decide on other grounds, such as behaviour and the risk of unwanted litters.
 - **Large or giant breed:** ask your vet about waiting, especially for Rottweilers, Golden Retrievers and Labradors.
 - **Whatever you decide:** the gaps in the evidence are large, and talking it through with your vet, breed by breed, is worth more than any single number here.

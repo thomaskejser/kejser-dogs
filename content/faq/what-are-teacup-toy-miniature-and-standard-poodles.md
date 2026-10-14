@@ -1,14 +1,8 @@
 ---
-question: What counts as a teacup, toy, miniature or standard poodle?
+question: What counts as a teacup, toy, miniature or standard (regular) poodle?
 summary: 'Poodle sizes are set by the adult dog''s own height at the shoulder, not by weight or by its parents'' size: roughly under 25–28 cm is a toy, up to 35–38 cm a miniature, and anything taller a standard. "Teacup" is a sales term, not a recognised size.'
 category: Breeds
 references:
-  - authors: Sutter N. B. et al.
-    year: 2007
-    title: A single IGF1 allele is a major determinant of small size in dogs
-    journal: Science
-    doi: 10.1126/science.1137045
-    openAccess: false
   - authors: Rimbault M. et al.
     year: 2013
     title: Derived variants at six genes explain nearly half of size reduction in dog breeds
@@ -58,7 +52,6 @@ The parents are a guide, not a guarantee.
 
 - **Size depends on many genes.**
   Variants at six genes explain [about half the size difference](https://doi.org/10.1101/gr.157339.113) between breeds, and most breeds carry a mix of them rather than one fixed set.
-  The region around the IGF1 gene also [affects size within a single breed](https://doi.org/10.1126/science.1137045).
   So two toy parents cannot guarantee a puppy that stays within the toy limit.
 - **American Kennel Club.**
   The [registration rules](https://images.akc.org/pdf/rulebooks/RREGS4.pdf) list "Poodles" once, with no varieties, so the registration does not fix a size.
@@ -84,7 +77,7 @@ The FCI also disqualifies any poodle with signs of dwarfism, such as a domed sku
 There are few studies of "teacup" dogs as such, so the evidence on their health is indirect.
 
 - **Small size has a common genetic basis.**
-  A [variant near the IGF1 growth gene](https://doi.org/10.1126/science.1137045) is shared by small breeds and nearly absent from giant breeds; it is a major reason small dogs are small.
+  Size-reducing versions of six growth genes, including [IGF1](https://doi.org/10.1101/gr.157339.113), are rare in wolves, and the more of them a dog carries, the smaller it tends to be.
 - **Being smaller than the breed average carries risk.**
   In over 200,000 dogs seen by vets in England, dogs lighter than the average for their breed and sex had [1.4 times the odds](https://doi.org/10.1186/s40575-016-0034-0) of patellar luxation, a kneecap that slips out of place and can cause lameness and arthritis.
   Breeds with the highest odds included the Pomeranian, Chihuahua and Yorkshire Terrier.

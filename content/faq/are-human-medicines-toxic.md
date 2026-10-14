@@ -9,12 +9,6 @@ references:
     journal: The Veterinary Journal
     doi: 10.1016/j.tvjl.2014.11.004
     openAccess: false
-  - authors: Caloni F. et al.
-    year: 2014
-    title: Epidemiological study (2006–2012) on the poisoning of small animals by human and veterinary drugs
-    journal: Veterinary Record
-    doi: 10.1136/vr.102107
-    openAccess: false
   - authors: Chalifoux N. V. et al.
     year: 2023
     title: Outcomes of 434 dogs with non-steroidal anti-inflammatory drug toxicosis treated with fluid therapy, lipid emulsion, or therapeutic plasma exchange
@@ -42,7 +36,7 @@ references:
 ---
 
 Many human medicines are toxic to dogs.
-Dogs are the species most often poisoned by them, usually after finding medicines that were not stored safely: they made up [70% of enquiries](https://doi.org/10.1136/vr.102107) to one poison centre about medicines, and most of their cases involved medicines meant for people.
+Dogs are the species [most often poisoned by them](https://doi.org/10.1016/j.tvjl.2014.11.004), usually after finding medicines that were not stored safely.
 
 Depending on the medicine, poisoning can be severe.
 
@@ -54,8 +48,8 @@ The signs depend on the medicine, so don't wait for them before calling your vet
 
 The medicines most often involved are:
 
-- **Drugs acting on the brain**, such as antidepressants and sleeping pills, the largest group at 27% of cases
-- **Painkillers** such as ibuprofen and other anti-inflammatory drugs, at 20%
+- **Drugs acting on the brain**, such as antidepressants and sleeping pills
+- **Painkillers** such as ibuprofen and other anti-inflammatory drugs
 - **Heart and blood pressure medicines**, such as calcium channel blockers
 - **Antihistamines**
 - **Anti-diarrhoea medicine** (loperamide)

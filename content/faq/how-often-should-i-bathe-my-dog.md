@@ -1,32 +1,8 @@
 ---
 question: How often should I bathe my dog?
-summary: 'Little research covers bathing healthy dogs: shampoo can weaken the skin barrier, but bathing helps itchy dogs and allergic owners.'
+summary: 'No independent study has tested how often to bathe a healthy dog, so bathe it when it is dirty or smelly. Dogs with itchy, allergic skin are usually bathed weekly, and twice-weekly washing lowers allergen for allergic owners.'
 category: Care
 references:
-  - authors: Esumi M. et al.
-    year: 2021
-    title: Preliminary evaluation of two bathing methods for the management of Malassezia overgrowth in dogs with atopic dermatitis
-    journal: Veterinary Dermatology
-    doi: 10.1111/vde.12948
-    openAccess: false
-  - authors: Iyori K. et al.
-    year: 2023
-    title: A preliminary investigation of the impact of artificially carbonated water bathing on canine skin physiological and barrier function
-    journal: Veterinary Dermatology
-    doi: 10.1111/vde.13145
-    openAccess: false
-  - authors: Taguchi N. et al.
-    year: 2024
-    title: 'Preliminary evaluation of a commercial shampoo and fine bubble bathing in the treatment of canine atopic dermatitis: a single-blinded, randomised, controlled study'
-    journal: Veterinary Dermatology
-    doi: 10.1111/vde.13245
-    openAccess: true
-  - authors: Löflath A. et al.
-    year: 2007
-    title: The efficacy of a commercial shampoo and whirlpooling in the treatment of canine pruritus — a double-blinded, randomized, placebo-controlled study
-    journal: Veterinary Dermatology
-    doi: 10.1111/j.1365-3164.2007.00639.x
-    openAccess: false
   - authors: Olivry T. et al.
     year: 2015
     title: 'Treatment of canine atopic dermatitis: 2015 updated guidelines from the International Committee on Allergic Diseases of Animals (ICADA)'
@@ -46,19 +22,17 @@ Common advice is to bathe only when the dog is dirty or smelly, since shampoo ma
 
 ## What the research shows
 
-- **Shampoo can weaken the skin barrier.** In [11 healthy dogs](https://doi.org/10.1111/vde.12948), bathing with either of two shampoo products, one of them a moisturising product, increased water loss through the skin.
-- **Water alone may not.** A single 20-minute bath in carbonated water [did not change](https://doi.org/10.1111/vde.13145) water loss or skin hydration in six healthy dogs.
-- **Even vets' guidelines note the trade-off**: [international guidelines](https://doi.org/10.1186/s12917-015-0514-6) for allergic dogs warn that shampooing may be drying and irritating, and that frequent bathing may weaken flea treatments applied to the skin.
+- **Vets' guidelines note a trade-off**: [international guidelines](https://doi.org/10.1186/s12917-015-0514-6) for allergic dogs warn that shampooing may be drying and irritating, and that frequent bathing may weaken flea treatments applied to the skin.
+- **No independent measurements in healthy dogs.** I could not find an independent study of how bathing affects a healthy dog's skin barrier; the studies I found were funded by makers of shampoos or bathing equipment, which I don't cite.
 
-These are small studies, so they support caution rather than a fixed schedule.
+So there is no evidence for a fixed schedule, only for caution.
 
 ## Dogs with itchy or allergic skin
 
 For dogs with skin conditions, regular bathing helps; follow your vet's advice.
 
 - The international guidelines recommend bathing allergic dogs **at least once a week** with a mild shampoo and lukewarm water.
-- Weekly shampooing [reduced itching](https://doi.org/10.1111/j.1365-3164.2007.00639.x) compared with a placebo in a controlled trial.
-- In allergic dogs bathed weekly, water loss through the skin [rose slightly](https://doi.org/10.1111/vde.13245) after shampoo, though not significantly more than with bubble baths.
+- They judge that how often and how thoroughly a dog is bathed may matter more for itching than which shampoo is used.
 
 ## If someone at home is allergic to dogs
 

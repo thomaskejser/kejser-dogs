@@ -21,12 +21,6 @@ references:
     journal: Veterinary Pathology
     doi: 10.1177/030098588502200414
     openAccess: false
-  - authors: Tang X., Xia Z. & Yu J.
-    year: 2008
-    title: An experimental study of hemolysis induced by onion (Allium cepa) poisoning in dogs
-    journal: Journal of Veterinary Pharmacology and Therapeutics
-    doi: 10.1111/j.1365-2885.2007.00930.x
-    openAccess: false
   - authors: Lee K. W. et al.
     year: 2000
     title: Hematologic changes associated with the appearance of eccentrocytes after intragastric administration of garlic extract to dogs
@@ -72,7 +66,7 @@ In dogs fed onion, red blood cells [began to fall after one day](https://doi.org
 
 The risk depends on how much is eaten, in what form, and on the dog:
 
-- **Raw, cooked, dried and powdered** onion and garlic are all toxic, as are foods made with them; [cooked onion](https://doi.org/10.1111/j.1365-2885.2007.00930.x) damaged red blood cells within a day in an experiment.
+- **Raw, cooked, dried and powdered** onion and garlic are all toxic, as are foods made with them: cooking and drying [do not remove the toxin](https://doi.org/10.3389/fvets.2016.00026).
 - **Some dogs are more sensitive**: dogs with an inherited red blood cell type were [far more susceptible](https://doi.org/10.2460/ajvr.1992.53.01.134) to onion.
   This type is found in [26 to 38%](https://doi.org/10.1292/jvms.59.495) of Shiba Inus and Akitas, and 42% of Korean Jindos.
 - **Fatal cases are rare but do happen**: a dog died after eating [raw garlic](https://doi.org/10.3390/ani16111712), with 16 g of garlic cloves found in its stomach.

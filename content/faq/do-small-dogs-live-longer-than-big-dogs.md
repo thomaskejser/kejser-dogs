@@ -1,6 +1,6 @@
 ---
 question: Do small dogs live longer than big dogs?
-summary: 'Yes, on average: small breeds live a year or more longer than large breeds, and giant breeds often die before 9. Big breeds age faster rather than starting to age earlier. Flat-faced small breeds, such as the French bulldog and pug, are the main exception.'
+summary: 'Yes, on average: small breeds live about a year longer than large breeds, and several giant mastiff-type breeds have median lifespans under 10 years. Big breeds age faster rather than starting to age earlier. Flat-faced small breeds, such as the French bulldog, are the main exception.'
 category: Breeds
 references:
   - authors: O'Neill D. G. et al.
@@ -9,23 +9,11 @@ references:
     journal: The Veterinary Journal
     doi: 10.1016/j.tvjl.2013.09.020
     openAccess: true
-  - authors: Teng K. T. et al.
-    year: 2022
-    title: Life tables of annual life expectancy and mortality for companion dogs in the United Kingdom
-    journal: Scientific Reports
-    doi: 10.1038/s41598-022-10341-6
-    openAccess: true
   - authors: McMillan K. M. et al.
     year: 2024
     title: 'Longevity of companion dog breeds: those at risk from early death'
     journal: Scientific Reports
     doi: 10.1038/s41598-023-50458-w
-    openAccess: true
-  - authors: O'Neill D. G. et al.
-    year: 2026
-    title: 'Giant dog breeds under primary veterinary care in the UK: demography, common disorders and mortality'
-    journal: Companion Animal Health and Genetics
-    doi: 10.1186/s40575-026-00152-7
     openAccess: true
   - authors: Kraus C., Pavard S. & Promislow D. E. L.
     year: 2013
@@ -33,18 +21,12 @@ references:
     journal: The American Naturalist
     doi: 10.1086/669665
     openAccess: false
-  - authors: Galis F. et al.
-    year: 2007
-    title: Do large dogs die young?
-    journal: 'Journal of Experimental Zoology Part B: Molecular and Developmental Evolution'
-    doi: 10.1002/jez.b.21116
-    openAccess: false
-  - authors: Sutter N. B. et al.
-    year: 2007
-    title: A single IGF1 allele is a major determinant of small size in dogs
-    journal: Science
-    doi: 10.1126/science.1137045
-    openAccess: false
+  - authors: Rimbault M. et al.
+    year: 2013
+    title: Derived variants at six genes explain nearly half of size reduction in dog breeds
+    journal: Genome Research
+    doi: 10.1101/gr.157339.113
+    openAccess: true
   - authors: Greer K. A., Hughes L. M. & Masternak M. M.
     year: 2011
     title: Connecting serum IGF-1, body size, and age in the domestic dog
@@ -57,12 +39,6 @@ references:
     journal: Journal of Veterinary Internal Medicine
     doi: 10.1111/j.1939-1676.2011.0695.x
     openAccess: true
-  - authors: O'Neill D. G. et al.
-    year: 2023
-    title: 'Dog breeds and conformations predisposed to osteosarcoma in the UK: a VetCompass study'
-    journal: Canine Medicine and Genetics
-    doi: 10.1186/s40575-023-00131-2
-    openAccess: true
   - authors: Glickman L. T. et al.
     year: 2000
     title: Incidence of and breed-related risk factors for gastric dilatation-volvulus in dogs
@@ -73,7 +49,7 @@ references:
 
 Yes, on average.
 Across breeds, the bigger the dog, the shorter its life, and this is one of the most consistent findings in dog research.
-It is a difference between breeds, though, not a rule for every dog: the flat-faced small breeds die young, and within one breed a larger dog is not worse off.
+It is a difference between breeds, though, not a rule for every dog: the flat-faced small breeds die young.
 
 ## The size effect in numbers
 
@@ -84,7 +60,7 @@ It is a difference between breeds, though, not a rule for every dog: the flat-fa
   In the largest study, of [584,734 dogs](https://doi.org/10.1038/s41598-023-50458-w), the median lifespan of purebreds was 12.7 years for small breeds, 12.5 for medium and 11.9 for large.
   Large breeds died sooner in both sexes.
 - **Giant breeds.**
-  Among 1,068 dogs of 29 [giant breeds](https://doi.org/10.1186/s40575-026-00152-7) that died under UK vet care, such as the Dogue de Bordeaux, Alaskan Malamute and Akita, the median age at death was 8.9 years.
+  In the same study, most of the breeds at highest risk of early death were large or giant guarding and mastiff types: the median was [5.4 years](https://doi.org/10.1038/s41598-023-50458-w) for the Caucasian shepherd dog, 8.1 for the Cane Corso, 9.0 for the Mastiff and 9.3 for the St Bernard and Neapolitan mastiff.
 - **Per kilogram.**
   Across 74 breeds, every [2 kg of extra body mass](https://doi.org/10.1086/669665) cost roughly one month of life expectancy.
 
@@ -96,11 +72,9 @@ The direction does not.
 
 Across species of mammals, bigger usually means longer-lived: an elephant outlives a mouse.
 Within a species the opposite tends to hold, and dogs are the [most striking example](https://doi.org/10.1086/669665): breeds differ almost a hundredfold in weight, and about twofold in life expectancy.
-[Galis and colleagues](https://doi.org/10.1002/jez.b.21116) point out that this goes against the usual pattern across species.
 
-The effect is between breeds.
-In the larger of two datasets they analysed, bigger dogs [within the same breed](https://doi.org/10.1002/jez.b.21116) lived slightly _longer_, not shorter.
-So a large Labrador is not doomed by being large; what matters is which breed the dog belongs to.
+The effect is measured between breeds.
+I could not find an independent study whose funding I could check that compared larger and smaller dogs within one breed, so I don't know whether a large dog of a given breed is worse off.
 
 ## Big dogs age faster, not earlier
 
@@ -123,15 +97,14 @@ Teaching-hospital records over-represent sick dogs, and the authors note that th
 Why big breeds age faster is not known.
 The leading idea is that the same growth signals that make a dog big also speed up ageing.
 
-- **One gene does much of the work of making dogs small.**
-  A single version of the region around the [IGF1 gene](https://doi.org/10.1126/science.1137045), which encodes the growth hormone insulin-like growth factor 1, is common to all small breeds studied and nearly absent from giant breeds.
+- **A few growth genes do much of the work of making dogs small.**
+  In 500 dogs of 93 breeds, variants at six genes, including [IGF1](https://doi.org/10.1101/gr.157339.113), which encodes the growth hormone insulin-like growth factor 1, explained about half the size difference between breeds.
+  At each gene, the version that goes with smaller size was rare in wolves, and the more of these versions a dog carried, the smaller it tended to be.
   This links IGF1 to size; the study did not look at lifespan.
 - **Big dogs have more IGF-1 in their blood.**
   In dogs from 5 to 160 lb, [blood IGF-1 rose with body weight](https://doi.org/10.1007/s11357-010-9182-4) and fell with age.
 - **Less IGF-1 signalling extends life in other animals.**
   Dampening this pathway delays or slows ageing in a [range of organisms](https://doi.org/10.1086/669665), and Kraus and colleagues call it plausible that it explains part of why small dogs live longer.
-- **Very fast growth may also cause disease directly.**
-  Breeding for [extremely fast growth](https://doi.org/10.1002/jez.b.21116) in large breeds appears to have led to developmental diseases that shorten life.
 
 This is circumstantial evidence.
 No study has shown that IGF-1 levels predict when an individual dog will die, and other mechanisms, such as oxidative stress, have hardly been studied in dogs.
@@ -143,35 +116,25 @@ Some small breeds have short lives, mostly those bred for a flat face (**brachyc
 - **Flat faces in general.**
   Flat-faced purebreds had a median lifespan of [11.2 years](https://doi.org/10.1038/s41598-023-50458-w), against 12.8 for breeds with a medium-length muzzle, and a 40% higher risk of death at any age.
 - **French bulldog.**
-  In the same study the French bulldog, a small breed, had a median of 9.8 years, the same as the much heavier bulldog, and 2.2 times the risk of death at any age of crossbreds.
-  A UK life table based on vet records gave it a life expectancy at birth of only [4.5 years](https://doi.org/10.1038/s41598-022-10341-6), the lowest of 18 breeds.
-  The authors warn that this figure is biased downward: the breed's popularity rose so fast that most French bulldogs are still young, so the deaths recorded so far are mostly early ones.
+  In the same study the French bulldog, a small breed, had a median of [9.8 years](https://doi.org/10.1038/s41598-023-50458-w), the same as the much heavier bulldog, and 2.2 times the risk of death at any age of crossbreds.
 - **Pug.**
-  The pug's median was [11.6 years](https://doi.org/10.1038/s41598-023-50458-w) in one study and its life expectancy at birth [7.7 years](https://doi.org/10.1038/s41598-022-10341-6) in the other.
-  The four breeds with the shortest life expectancy in the life tables were all flat-faced: the French bulldog, English bulldog, pug and American bulldog.
-  The authors note that these breeds are [prone to early, life-limiting problems](https://doi.org/10.1038/s41598-022-10341-6) such as obstructed airways, spinal disease and difficult births.
-
-The French bulldog and pug figures differ a lot between studies, which shows how much the data source matters for a single breed.
-Even so, both studies put them well below other small breeds.
+  The pug's median was [11.6 years](https://doi.org/10.1038/s41598-023-50458-w), below the 12.7 years for small breeds as a group.
 
 The smallest dogs are not always the longest-lived either.
-Chihuahuas had a life expectancy at birth of [7.9 years](https://doi.org/10.1038/s41598-022-10341-6) in the UK life tables, because many died young, yet those that survived reached older ages than dogs of any other breed in the study.
+The affenpinscher, a toy breed, had a median of [9.3 years](https://doi.org/10.1038/s41598-023-50458-w), as short as the St Bernard.
 Very small dogs have their own health problems; see [poodle sizes](/faq/what-are-teacup-toy-miniature-and-standard-poodles) for kneecap problems in dogs smaller than their breed's average.
 
 ## What big dogs die of
 
 Big breeds do not simply die of the same things sooner; some causes of death are much more common in them.
 
-- **Cancer, especially bone cancer.**
-  Cancer was the most common recorded cause of death in [giant breeds](https://doi.org/10.1186/s40575-026-00152-7), at 12% of deaths, though for 44% of deaths no cause was diagnosed.
-  The odds of bone cancer (**osteosarcoma**) [rose with adult body weight](https://doi.org/10.1186/s40575-023-00131-2) in over 900,000 UK dogs, and were highest in the Scottish deerhound, Leonberger, Great Dane and Rottweiler, at 26 to 118 times the odds of crossbreds.
 - **Bloat.**
   Gastric dilatation-volvulus, where the stomach fills with gas and twists, struck about [2 to 3 dogs in 100 per year](https://doi.org/10.2460/javma.2000.216.40) in a study of 1,914 dogs of 11 large and giant breeds; 29% of the dogs it struck died.
   That study included no small breeds, so it cannot show how much rarer bloat is in small dogs.
-- **Heart disease.**
-  Heart disorders were the third most common cause of death in [giant breeds](https://doi.org/10.1186/s40575-026-00152-7), at 4% of deaths.
 - **Bones, joints and gut.**
   In 74,556 deaths at North American teaching hospitals, dogs of larger breeds died [more often of musculoskeletal and gastrointestinal causes](https://doi.org/10.1111/j.1939-1676.2011.0695.x), and dogs of smaller breeds more often of hormonal diseases.
+
+Bone cancer and heart disease are often said to be more common in big breeds, but the large studies I found on them were part-funded by a pet insurer, which I don't cite.
 
 ## What this means for you
 

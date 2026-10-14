@@ -15,12 +15,6 @@ references:
     journal: Frontiers in Veterinary Science
     doi: 10.3389/fvets.2022.879179
     openAccess: true
-  - authors: Sheafor S. E. & Couto C. G.
-    year: 1999
-    title: Anticoagulant rodenticide toxicity in 21 dogs
-    journal: Journal of the American Animal Hospital Association
-    doi: 10.5326/15473317-35-1-38
-    openAccess: false
   - authors: Soleng A. et al.
     year: 2022
     title: 'Suspected rodenticide exposures in humans and domestic animals: data from inquiries to the Norwegian Poison Information Centre, 2005–2020'
@@ -63,18 +57,18 @@ Untreated bleeding can be fatal, but most treated dogs recover.
 
 Bleeding usually starts [three to five days](https://doi.org/10.3389/fvets.2022.879179) after eating the poison, so a dog can seem well at first.
 It can happen almost anywhere in the body.
-The most common [signs at the vet](https://doi.org/10.5326/15473317-35-1-38) were:
+The most common [signs at the vet](https://doi.org/10.1055/a-2226-4348) were:
 
-- Difficulty breathing (57%), from bleeding into the chest or lungs
-- Lethargy (48%)
-- Coughing, or coughing up blood (30%)
-- Pale gums (26%)
-- Bruising, a swollen belly, or blood in faeces or urine
+- Lethargy (79%)
+- Pale gums (79%)
+- Not eating (60%)
+- Difficulty or fast breathing (60%)
+- Bruising, a swollen belly, or blood in faeces or urine, which were less common
 
 ## How dangerous is it?
 
 - **Treatment works**: [98.7% of poisoned dogs survived](https://doi.org/10.2460/javma.242.4.516) in one study.
-- **Dogs that are already bleeding** do less well: 83% to 87% survived.
+- **Dogs that are already bleeding** do less well: [87% survived](https://doi.org/10.3389/fvets.2022.879179).
 - **A blood transfusion matters**: among bleeding dogs, about 4 in 10 that did not get one died, against 1 in 25 that did.
 - **Newer poisons work differently**: bromethalin, a rat poison that attacks the nervous system, is [increasingly used](https://doi.org/10.1111/jvim.70057) and causes seizures, tremors, weakness and paralysis.
   Only [25 of 192 dogs](https://doi.org/10.1111/vec.13026) that ate it became ill, but those with severe signs were often put to sleep.

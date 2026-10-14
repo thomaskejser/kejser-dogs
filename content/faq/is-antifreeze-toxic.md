@@ -1,25 +1,13 @@
 ---
 question: Is antifreeze toxic to dogs?
-summary: 'Yes! Antifreeze causes kidney failure, and treatment works only if it starts within hours.'
+summary: 'Yes! Antifreeze causes kidney failure, which most poisoned dogs do not survive. Go to a vet at once: treatment helps only before the kidneys fail.'
 parent: which-substances-are-toxic-to-dogs
 references:
-  - authors: Connally H. E. et al.
-    year: 1996
-    title: 'Safety and efficacy of 4-methylpyrazole for treatment of suspected or confirmed ethylene glycol intoxication in dogs: 107 cases (1983–1995)'
-    journal: Journal of the American Veterinary Medical Association
-    doi: 10.2460/javma.1996.209.11.1880
-    openAccess: false
   - authors: Grauer G. F. et al.
     year: 1984
     title: Early clinicopathologic findings in dogs ingesting ethylene glycol
     journal: American Journal of Veterinary Research
     doi: 10.2460/ajvr.1984.45.11.2299
-    openAccess: false
-  - authors: Dial S. M., Thrall M. A. & Hamar D. W.
-    year: 1994
-    title: Efficacy of 4-methylpyrazole for treatment of ethylene glycol intoxication in dogs
-    journal: American Journal of Veterinary Research
-    doi: 10.2460/ajvr.1994.55.12.1762
     openAccess: false
   - authors: Thrall M. A., Grauer G. F. & Mero K. N.
     year: 1984
@@ -27,6 +15,12 @@ references:
     journal: Journal of the American Veterinary Medical Association
     doi: 10.2460/javma.1984.184.01.37
     openAccess: false
+  - authors: Schweighauser A. & Francey T.
+    year: 2016
+    title: 'Ethylene glycol poisoning in three dogs: importance of early diagnosis and role of hemodialysis as a treatment option'
+    journal: Schweizer Archiv für Tierheilkunde
+    doi: 10.17236/sat00051
+    openAccess: true
 ---
 
 Antifreeze is toxic to dogs.
@@ -50,10 +44,12 @@ Don't wait for signs: treatment works only if it starts before the kidneys are d
 
 Time is what matters most:
 
-- **Dogs treated before their kidneys started to fail** all survived in one study.
-- **Dogs whose kidneys had already started to fail** almost all died: [only 1 of 21 survived](https://doi.org/10.2460/javma.1996.209.11.1880).
-- **Every hour counts**: in an experiment, [all dogs treated at 5 hours](https://doi.org/10.2460/ajvr.1994.55.12.1762) recovered fully, but 2 of 6 dogs treated at 8 hours developed kidney failure.
-- **Delays kill**: in an early study of poisoned dogs and cats, 78% died, which the authors blamed on late arrival, diagnosis and treatment.
+- **Most poisoned animals die**: of 50 dogs and cats at a university hospital, [only 6 survived](https://doi.org/10.2460/javma.1984.184.01.37).
+  The authors blamed late arrival, diagnosis and treatment, and noted that kidney failure sets in 24 to 72 hours after drinking.
+- **Early arrival helps**: half of those survivors had arrived within 12 hours of drinking antifreeze.
+- **Kidney failure is hard to reverse**: in a Swiss report, a dog treated about [3 hours after drinking antifreeze](https://doi.org/10.17236/sat00051) went home healthy on day 3, while two dogs that arrived after their kidneys had started to fail were put to sleep.
+
+I could not find an independent study that measured how many hours vets have to start treatment in dogs; the studies I found were funded by a maker of the antidote or by an unnamed donor, which I don't cite.
 
 ### At what dose do symptoms appear?
 
@@ -67,5 +63,5 @@ Note roughly how much, and when.
 
 ### What will the Vet do?
 
-Vets will give an antidote called 4-methylpyrazole (fomepizole) through an IV drip, in several doses over about a day and a half.
-It stops the body turning ethylene glycol into its toxic forms, and works best before the kidneys are damaged.
+The vet will give fluids through an IV drip and an antidote, [fomepizole or ethanol](https://doi.org/10.17236/sat00051), which stops the body turning ethylene glycol into its toxic forms.
+Some animal hospitals can also wash ethylene glycol out of the blood with dialysis.

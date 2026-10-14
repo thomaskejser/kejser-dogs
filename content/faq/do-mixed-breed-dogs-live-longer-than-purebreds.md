@@ -9,24 +9,6 @@ references:
     journal: The Veterinary Journal
     doi: 10.1016/j.tvjl.2013.09.020
     openAccess: true
-  - authors: Patronek G. J., Waters D. J. & Glickman L. T.
-    year: 1997
-    title: 'Comparative longevity of pet dogs and humans: implications for gerontology research'
-    journal: 'The Journals of Gerontology Series A: Biological Sciences and Medical Sciences'
-    doi: 10.1093/gerona/52a.3.b171
-    openAccess: true
-  - authors: Yordy J. et al.
-    year: 2020
-    title: Body size, inbreeding, and lifespan in domestic dogs
-    journal: Conservation Genetics
-    doi: 10.1007/s10592-019-01240-x
-    openAccess: false
-  - authors: Urfer S. R. et al.
-    year: 2019
-    title: Risk factors associated with lifespan in pet dogs evaluated in primary care veterinary hospitals
-    journal: Journal of the American Animal Hospital Association
-    doi: 10.5326/JAAHA-MS-6763
-    openAccess: false
   - authors: Inoue M., Kwan N. C. L. & Sugiura K.
     year: 2018
     title: Estimating the life expectancy of companion dogs in Japan using pet cemetery data
@@ -63,23 +45,11 @@ references:
     journal: GeroScience
     doi: 10.1007/s11357-022-00653-w
     openAccess: false
-  - authors: Bannasch D. et al.
-    year: 2021
-    title: The effect of inbreeding, body size and morphology on health in dog breeds
-    journal: Canine Medicine and Genetics
-    doi: 10.1186/s40575-021-00111-4
-    openAccess: true
   - authors: Bellumori T. P. et al.
     year: 2013
     title: 'Prevalence of inherited disorders among mixed-breed and purebred dogs: 27,254 cases (1995–2010)'
     journal: Journal of the American Veterinary Medical Association
     doi: 10.2460/javma.242.11.1549
-    openAccess: true
-  - authors: Donner J. et al.
-    year: 2018
-    title: Frequency and distribution of 152 genetic disease variants in over 100,000 mixed breed and purebred dogs
-    journal: PLOS Genetics
-    doi: 10.1371/journal.pgen.1007361
     openAccess: true
   - authors: Bryson G. T. et al.
     year: 2024
@@ -95,26 +65,23 @@ references:
     openAccess: true
 ---
 
-It is often said that mixed-breed dogs are healthier and live longer, and many studies agree.
+It is often said that mixed-breed dogs are healthier and live longer, and several studies agree.
 The largest study so far does not, and nobody can yet say for certain which is right.
 
 Every study here is observational: it compares dogs that already exist, so it shows associations, not that being mixed-breed causes a longer life.
 
 ## What the studies found
 
-Most studies favour mixed breeds, by about a year.
+Several studies favour mixed breeds, by about a year.
 
-| Study                                                       | Where and what data                             | Result                                                                                         |
-| ----------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [O'Neill 2013](https://doi.org/10.1016/j.tvjl.2013.09.020)  | England, vet records, 5,095 deaths              | Crossbreds lived 1.2 years longer, allowing for body weight                                    |
-| [Patronek 1997](https://doi.org/10.1093/gerona/52a.3.b171)  | North American teaching hospitals, 23,535 dogs  | Mixed breeds died older in every weight class                                                  |
-| [Yordy 2020](https://doi.org/10.1007/s10592-019-01240-x)    | Same hospital database, about 38,600 adult dogs | Mixed breeds lived 1.2 years longer than purebreds of the same size                            |
-| [Urfer 2019](https://doi.org/10.5326/JAAHA-MS-6763)         | US Banfield clinics, 2.37 million dogs          | Mixed breeds lived longer, and the gap grew with body size                                     |
-| [Inoue 2018](https://doi.org/10.1292/jvms.17-0384)          | Tokyo pet cemeteries, 12,039 dogs               | Life expectancy 15.1 years for crossbreeds, 13.6 for purebreds                                 |
-| [Mata 2023](https://doi.org/10.7717/peerj.15718)            | UK vet records, 30,563 deaths                   | Median 13.6 years for mongrels, 12.0 for crossbreds, 11.7 for purebreds; not adjusted for size |
-| [Urfer 2020](https://doi.org/10.1186/s40575-020-00086-8)    | Three independent US clinics, 20,970 dogs       | No difference                                                                                  |
-| [Demeli 2023](https://doi.org/10.1016/j.rvsc.2023.104953)   | Turkey, owner survey, 1,312 dogs                | Mixed breeds lived longer, but not once neutering and roaming were taken into account          |
-| [McMillan 2024](https://doi.org/10.1038/s41598-023-50458-w) | UK, 18 organisations, 584,734 dogs              | Purebreds lived longer: median 12.7 years against 12.0                                         |
+| Study                                                       | Where and what data                       | Result                                                                                         |
+| ----------------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [O'Neill 2013](https://doi.org/10.1016/j.tvjl.2013.09.020)  | England, vet records, 5,095 deaths        | Crossbreds lived 1.2 years longer, allowing for body weight                                    |
+| [Inoue 2018](https://doi.org/10.1292/jvms.17-0384)          | Tokyo pet cemeteries, 12,039 dogs         | Life expectancy 15.1 years for crossbreeds, 13.6 for purebreds                                 |
+| [Mata 2023](https://doi.org/10.7717/peerj.15718)            | UK vet records, 30,563 deaths             | Median 13.6 years for mongrels, 12.0 for crossbreds, 11.7 for purebreds; not adjusted for size |
+| [Urfer 2020](https://doi.org/10.1186/s40575-020-00086-8)    | Three independent US clinics, 20,970 dogs | No difference                                                                                  |
+| [Demeli 2023](https://doi.org/10.1016/j.rvsc.2023.104953)   | Turkey, owner survey, 1,312 dogs          | Mixed breeds lived longer, but not once neutering and roaming were taken into account          |
+| [McMillan 2024](https://doi.org/10.1038/s41598-023-50458-w) | UK, 18 organisations, 584,734 dogs        | Purebreds lived longer: median 12.7 years against 12.0                                         |
 
 McMillan 2024 is by far the largest study, and it found the opposite of most of the others.
 Of 155 breeds, 47% outlived the crossbred group, 26% died younger, and the rest did not differ.
@@ -136,22 +103,19 @@ The most likely reason is where each study's dogs came from.
   The group can mix dogs of unknown ancestry with first-generation crosses of two pedigree breeds.
   The [UK study that split them](https://doi.org/10.7717/peerj.15718) found mongrels lived longest, then dogs recorded as crossbreds, then purebreds.
 - **Each source has its own biases.**
-  Teaching hospitals see sicker dogs, cemetery data include only owners who pay for burial, and insurance data under-represent old dogs.
-  Banfield, the source of the 2.37 million-dog study, is owned by Mars, which also makes pet food.
+  Cemetery data include only owners who pay for burial, and insurance data under-represent old dogs.
 
 ## Is it just about size?
 
-Partly, but size does not explain all of it.
+Partly, and the studies disagree on how much.
 
 Big dogs live shorter lives, and the most popular purebreds are not the same size as the average crossbred.
 A fair comparison has to match dogs of the same size; size itself is covered in a separate question.
 
-- **Matched for size, mixed breeds still did better.**
-  [Patronek 1997](https://doi.org/10.1093/gerona/52a.3.b171) found mixed breeds outlived purebreds in every weight class, and [Yordy 2020](https://doi.org/10.1007/s10592-019-01240-x) found a 1.2-year gap between dogs of the same size.
-  Both used the same North American teaching-hospital database from 1984–2004.
+- **Allowing for body weight, mixed breeds still did better in England.**
+  [O'Neill 2013](https://doi.org/10.1016/j.tvjl.2013.09.020) found a 1.2-year gap after allowing for body weight.
 - **The gap may be mostly in big dogs.**
-  In the Banfield data the advantage [grew with body size](https://doi.org/10.5326/JAAHA-MS-6763).
-  [Urfer 2020](https://doi.org/10.1186/s40575-020-00086-8), which found no difference after adjusting for weight, suggests this is why: more than half its dogs were small or medium.
+  [Urfer 2020](https://doi.org/10.1186/s40575-020-00086-8) found no difference after adjusting for weight, and its authors suggest that any advantage may be mainly in large dogs: more than half of their dogs were small or medium.
 - **Small crossbreeds did not stand out in Japan.**
   In the [Tokyo cemetery data](https://doi.org/10.1292/jvms.17-0384), crossbreeds over 10 kg had a life expectancy of 15.3 years, but those under 10 kg had 13.3, below the 13.7 average for all dogs.
 - **McMillan could not adjust for size.**
@@ -159,18 +123,16 @@ A fair comparison has to match dogs of the same size; size itself is covered in 
 
 ## Does inbreeding shorten a dog's life?
 
-Within a breed, yes, but the effect is small.
+Probably a little, but the evidence is thin.
 
-Most breeds are closed populations, so purebred dogs are often inbred: across 227 breeds, the average genetic inbreeding was [about 25%](https://doi.org/10.1186/s40575-021-00111-4), close to what you would get by mating full siblings.
+Most breeds are closed populations, so purebred dogs are often inbred, and many breeds have [little genetic diversity](https://doi.org/10.1186/s40575-020-00086-8).
 
-- **Within one breed.**
-  Among 9,791 golden retrievers, dogs with more inbreeding in their pedigree [lived slightly shorter lives](https://doi.org/10.1007/s10592-019-01240-x), and those with an inbreeding coefficient below 2% lived longest.
 - **Between breeds.**
-  [Yordy 2020](https://doi.org/10.1007/s10592-019-01240-x) found no link between a breed's inbreeding and its lifespan once size was allowed for.
-  Two later studies did find one: breeds with lower inbreeding or larger populations lived [3–6 months longer](https://doi.org/10.1186/s40575-020-00086-8) in US clinics, and more genetically diverse breeds [lived longer](https://doi.org/10.1007/s11357-022-00653-w) in owner-reported data corrected for a bias against fast-growing breeds.
-- **Health, not just lifespan.**
-  In Swedish insurance data, more inbred and larger breeds [needed more veterinary care](https://doi.org/10.1186/s40575-021-00111-4); claims for mixed breeds were below the average for breeds.
-  Breeds with low inbreeding included recent crosses such as the Australian Labradoodle, so a consistent breed type is possible without heavy inbreeding.
+  Breeds with lower inbreeding or larger populations lived [3–6 months longer](https://doi.org/10.1186/s40575-020-00086-8) in US clinics, and more genetically diverse breeds [lived longer](https://doi.org/10.1007/s11357-022-00653-w) in owner-reported data corrected for a bias against fast-growing breeds.
+- **Severe inherited disease.**
+  In UK vet records, breeds with a higher score for [severe inherited disorders](https://doi.org/10.7717/peerj.15718) had a higher risk of death.
+- **Within one breed.**
+  I could not find an independent study that measured this; the one I found had an author from a company that sells dog DNA tests, which I don't cite.
 
 ## What is "hybrid vigour"?
 
@@ -180,9 +142,6 @@ Parents from different breeds are less likely to carry the same faulty gene.
 
 What it does:
 
-- **Fewer dogs affected by recessive diseases.**
-  In over 100,000 DNA-tested dogs, mixed breeds were [more likely to carry](https://doi.org/10.1371/journal.pgen.1007361) a common recessive disease variant, but purebreds were more likely to be affected by one.
-  Most of the authors worked for companies that sell dog DNA tests.
 - **Fewer of some inherited disorders.**
   In 27,254 dogs, purebreds were [more likely to have 10 of 24 inherited disorders](https://doi.org/10.2460/javma.242.11.1549), including dilated cardiomyopathy, elbow dysplasia, cataracts and hypothyroidism.
 
@@ -216,7 +175,7 @@ The evidence conflicts, so I would not choose a dog on whether it is purebred al
   In the [McMillan data](https://doi.org/10.1038/s41598-023-50458-w), breed medians ranged from 5.4 years (Caucasian shepherd dog) to over 14, and flat-faced breeds died younger; the gap between breeds is far larger than the gap between purebreds and crossbreds.
   Some purebreds, such as the miniature dachshund and border terrier, outlived the crossbred average by two years.
 - **A mixed-breed advantage is plausible.**
-  Most studies, including those matched for size, found one, and the genetics of hybrid vigour explain how it could work.
+  Several studies found one, including one that allowed for body weight, and the genetics of hybrid vigour explain how it could work.
 - **But it is not proven.**
   The largest study found the opposite, and no study has compared purebreds and crossbreds of known ancestry from the same population, adjusted for size and care.
 - **The individual dog matters most.**

@@ -21,12 +21,6 @@ references:
     journal: Frontiers in Veterinary Science
     doi: 10.3389/fvets.2016.00026
     openAccess: true
-  - authors: Gans J. H. et al.
-    year: 1980
-    title: Effects of short-term and long-term theobromine administration to male dogs
-    journal: Toxicology and Applied Pharmacology
-    doi: 10.1016/0041-008X(80)90360-9
-    openAccess: false
 ---
 
 Chocolate is toxic to dogs.
@@ -60,11 +54,11 @@ the size of my fingertip to experience symptoms.
 
 ### What dose is fatal?
 
-A [laboratory study](https://doi.org/10.1016/0041-008X%2880%2990360-9) done in 1980 gave dogs measured doses of pure theobromine.
-Of 33 dogs given a single dose between 15 and 1,000 mg/kg, three died: one each at 300, 500 and 1,000 mg/kg.
+I could not find an independent study that measured the fatal dose; the one I found was funded by a chocolate maker, which I don't cite.
 
-This study would be unlikely to pass ethical review today.
-But I am citing it here because it established the rough, fatal dose.
+Deaths are rare in practice.
+At a German university clinic, [1 of 44 dogs](https://doi.org/10.1111/jsap.13329) with signs of chocolate poisoning died.
+That dog had eaten 100 g of dark chocolate, about 64 mg of theobromine per kg, and reached the clinic 12 hours later.
 
 ## What to do?
 

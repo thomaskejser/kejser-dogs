@@ -9,12 +9,6 @@ references:
     journal: Journal of Veterinary Emergency and Critical Care
     doi: 10.1111/j.1476-4431.2012.00818.x
     openAccess: false
-  - authors: Amissah R. Q. et al.
-    year: 2022
-    title: 'Prevalence and characteristics of cannabis-induced toxicoses in pets: results from a survey of veterinarians in North America'
-    journal: PLOS ONE
-    doi: 10.1371/journal.pone.0261909
-    openAccess: true
   - authors: Binagia E. M., Gregory E. A. & Yankin I.
     year: 2024
     title: 'Clinical examination findings and electrolyte abnormalities of dogs with marijuana/tetrahydrocannabinol toxicity: 223 cases (January 2017–July 2021)'
@@ -39,12 +33,6 @@ references:
     journal: PLOS ONE
     doi: 10.1371/journal.pone.0250323
     openAccess: true
-  - authors: Teitler J. B.
-    year: 2009
-    title: Evaluation of a human on-site urine multidrug test for emergency use with dogs
-    journal: Journal of the American Animal Hospital Association
-    doi: 10.5326/0450059
-    openAccess: false
   - authors: Fitzgerald A. H. et al.
     year: 2021
     title: Detecting and quantifying marijuana metabolites in serum and urine of 19 dogs affected by marijuana toxicity
@@ -70,12 +58,12 @@ Dogs can be poisoned by eating the plant, joints, or food made with cannabis.
 
 Most dogs recover fully, but deaths have been reported, including two dogs that ate baked goods made with medical-grade THC butter.
 
-Eating cannabis is best studied, but passively inhaling smoke is known to have an effect too.
+Most of the evidence is about dogs that ate cannabis.
 
 ## Signs of cannabis poisoning
 
-Signs start within minutes of breathing in smoke, or within [several hours](https://doi.org/10.1371/journal.pone.0261909) of eating cannabis, and usually pass within 72 hours.
-In [223 poisoned dogs](https://doi.org/10.2460/javma.24.02.0092), the most common signs were:
+In [223 poisoned dogs](https://doi.org/10.2460/javma.24.02.0092), signs started a median of 1¼ hours after eating cannabis in the 22 dogs where the time was known, and within 4 hours in most of them.
+The most common signs were:
 
 - Wobbling (88%)
 - Over-sensitivity to touch and sound (75%)
@@ -83,13 +71,13 @@ In [223 poisoned dogs](https://doi.org/10.2460/javma.24.02.0092), the most commo
 - Leaking urine (46%)
 - Vomiting (26%)
 
-A slow heartbeat is also common.
+Most dogs had a normal heart rate; when it was abnormal, it was more often fast (37%) than slow (5%).
 
 ## How dangerous is it?
 
 - **Most dogs recover**: all 223 dogs in the largest study survived.
-- **Deaths are rare but reported**: vets in a survey reported 16 deaths, from causes such as pneumonia from inhaled vomit, breathing failure and seizures, though other causes could not always be ruled out.
-- **Edibles** were the most common suspected cause in a survey of vets.
+- **Deaths are rare but reported**: in a Colorado study, [two dogs died](https://doi.org/10.1111/j.1476-4431.2012.00818.x) after eating baked goods made with medical-grade THC butter.
+- **Joints and plant material** were the most common known source in the largest study, ahead of edibles; for half the dogs the source was unknown.
 - **Dogs find it outdoors too**: in Melbourne, [15 dogs](https://doi.org/10.1111/avj.13134) were poisoned after eating human faeces, mostly in parks.
 - **Cases rise with legalisation**: in Colorado, cases at two veterinary hospitals rose fourfold over five years, in step with medical cannabis licences, and US poison centre calls about cannabis were [more common in states with lighter penalties](https://doi.org/10.1371/journal.pone.0250323).
 
@@ -109,10 +97,9 @@ Vets usually cannot prove cannabis poisoning with a quick test, so what you tell
 
 - **Human drug tests often miss it**: dogs break THC down differently from people, and the urine screens look for a breakdown product that dogs make little of.
   In [19 poisoned dogs](https://doi.org/10.1177/10406387211027227), the screen was negative for every dog it was run on, although THC was found in every dog's blood.
-  An [earlier study](https://doi.org/10.5326/0450059) found a human test kit worked for several other drugs but not for cannabis in dogs.
   A [small 2025 study](https://doi.org/10.3389/fvets.2025.1679400) found one test positive in all nine dogs known to have eaten cannabis, but without lab confirmation.
 - **Lab confirmation is slow and rare**: mass spectrometry can confirm it, but usually [takes several days](https://doi.org/10.1053/j.tcam.2013.03.004), and in the 2025 study no lab in the region offered it.
-- **The diagnosis rests on your story and the dog's signs**: that is how [most vets in a survey](https://doi.org/10.1371/journal.pone.0261909) diagnosed it.
+- **The diagnosis rests on your story and the dog's signs**: in 38 dogs at a teaching hospital, a diagnosis made that way was [confirmed by blood tests](https://doi.org/10.1111/vec.13428) in nearly every case.
 - **Without your story, the vet must rule out other causes**: other medicines and drugs, some parasite treatments, xylitol and hallucinogenic mushrooms can cause similar signs, and checking for them takes extra tests, time and money.
 - **Mention edibles**: brownies, chocolates and sweets may also contain chocolate or xylitol, which are poisonous on their own.
 
@@ -120,7 +107,7 @@ In the largest study, 68% of owners denied that their dog could have eaten canna
 
 ### What will the Vet do?
 
-Most dogs are monitored until the effects wear off, often at home, and most recover completely.
+Most dogs are monitored until the effects wear off, often at home: in the largest study, only [22 of 223 dogs](https://doi.org/10.2460/javma.24.02.0092) stayed in hospital for a median of a day and at most three days.
 
 ## Will my vet report me?
 

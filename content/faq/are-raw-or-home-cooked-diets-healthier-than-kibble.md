@@ -1,61 +1,25 @@
 ---
 question: Are raw or home-cooked diets healthier than kibble?
-summary: No study shows that raw, home-cooked or fresh diets make dogs healthier or live longer than complete commercial kibble. In most small trials, dogs on raw or fresh food produced less faeces than on kibble, which shows the food was digested more completely, not that the dogs were healthier. Raw food often carries Salmonella and resistant bacteria, and most home-made recipes are unbalanced.
+summary: No study shows that raw, home-cooked or fresh diets make dogs healthier or live longer than complete commercial kibble. Raw food often carries Salmonella and antibiotic-resistant bacteria, and the recipes and ready-made raw foods that have been tested were often short of nutrients.
 category: Nutrition and feeding
 references:
-  - authors: Algya K. M. et al.
-    year: 2018
-    title: Apparent total-tract macronutrient digestibility, serum chemistry, urinalysis, and fecal characteristics, metabolites and microbiota of adult dogs fed extruded, mildly cooked, and raw diets
-    journal: Journal of Animal Science
-    doi: 10.1093/jas/sky235
-    openAccess: true
-  - authors: Do S. et al.
-    year: 2021
-    title: Nutrient digestibility and fecal characteristics, microbiota, and metabolites in dogs fed human-grade foods
-    journal: Journal of Animal Science
-    doi: 10.1093/jas/skab028
-    openAccess: false
-  - authors: Geary E. L. et al.
-    year: 2024
-    title: Apparent total tract nutrient digestibility of frozen raw, freeze-dried raw, fresh, and extruded dog foods and their effects on serum metabolites and fecal characteristics, metabolites, and microbiota of healthy adult dogs
-    journal: Translational Animal Science
-    doi: 10.1093/tas/txae163
-    openAccess: true
-  - authors: Bermingham E. N. et al.
-    year: 2017
-    title: Key bacterial families (Clostridiaceae, Erysipelotrichaceae and Bacteroidaceae) are related to the digestion of protein and energy in dogs
-    journal: PeerJ
-    doi: 10.7717/peerj.3019
-    openAccess: true
-  - authors: Sandri M. et al.
-    year: 2017
-    title: Raw meat based diet influences faecal microbiome and end products of fermentation in healthy dogs
-    journal: BMC Veterinary Research
-    doi: 10.1186/s12917-017-0981-z
-    openAccess: true
-  - authors: Schmidt M. et al.
-    year: 2018
-    title: The fecal microbiome and metabolome differs between dogs fed Bones and Raw Food (BARF) diets and dogs fed commercial diets
-    journal: PLOS ONE
-    doi: 10.1371/journal.pone.0201279
-    openAccess: true
-  - authors: Hemida M. B. M. et al.
-    year: 2021
-    title: Puppyhood diet as a factor in the development of owner-reported allergy/atopy skin signs in adult dogs in Finland
-    journal: Journal of Veterinary Internal Medicine
-    doi: 10.1111/jvim.16211
-    openAccess: true
-  - authors: Empert-Gallegos A., Hill S. & Yam P. S.
-    year: 2020
-    title: Insights into dog owner perspectives on risks, benefits, and nutritional value of raw diets compared to commercial cooked diets
-    journal: PeerJ
-    doi: 10.7717/peerj.10383
-    openAccess: true
   - authors: Morgan S. K., Willis S. & Shepherd M. L.
     year: 2017
     title: Survey of owner motivations and veterinary input of owners feeding diets containing raw animal products
     journal: PeerJ
     doi: 10.7717/peerj.3031
+    openAccess: true
+  - authors: Morelli G. et al.
+    year: 2019
+    title: "Raw meat-based diets for dogs: survey of owners' motivations, attitudes and practices"
+    journal: BMC Veterinary Research
+    doi: 10.1186/s12917-019-1824-x
+    openAccess: true
+  - authors: Hiney K. et al.
+    year: 2024
+    title: Fecal microbiota composition, serum metabolomics, and markers of inflammation in dogs fed a raw meat-based diet compared to those on a kibble diet
+    journal: Frontiers in Veterinary Science
+    doi: 10.3389/fvets.2024.1328513
     openAccess: true
   - authors: van Bree F. P. J. et al.
     year: 2018
@@ -87,59 +51,35 @@ references:
     journal: Veterinary Record
     doi: 10.1136/vr.105644
     openAccess: true
-  - authors: Pedrinelli V., Gomes M. O. S. & Carciofi A. C.
-    year: 2017
-    title: Analysis of recipes of home-prepared diets for dogs and cats published in Portuguese
-    journal: Journal of Nutritional Science
-    doi: 10.1017/jns.2017.31
+  - authors: Kaindama L. et al.
+    year: 2021
+    title: A cluster of Shiga toxin-producing Escherichia coli O157:H7 highlights raw pet food as an emerging potential source of infection in humans
+    journal: Epidemiology and Infection
+    doi: 10.1017/S0950268821001072
     openAccess: true
-  - authors: Dillitzer N., Becker N. & Kienzle E.
-    year: 2011
-    title: Intake of minerals, trace elements and vitamins in bone and raw food rations in adult dogs
-    journal: British Journal of Nutrition
-    doi: 10.1017/S0007114511002765
+  - authors: Rosa M. B. S. et al.
+    year: 2026
+    title: 'Use of artificial intelligence in obtaining canine diets: nutritional inadequacy and the need for technical knowledge'
+    journal: Veterinary and Animal Science
+    doi: 10.1016/j.vas.2026.100761
     openAccess: true
-  - authors: Johnson L. N. et al.
-    year: 2016
-    title: Evaluation of owner experiences and adherence to home-cooked diet recipes for dogs
-    journal: Journal of Small Animal Practice
-    doi: 10.1111/jsap.12412
-    openAccess: false
+  - authors: Moravszki L. et al.
+    year: 2025
+    title: Assessment of mineral adequacy in preprepared raw dog foods labeled as complete
+    journal: Scientific Reports
+    doi: 10.1038/s41598-025-27388-w
+    openAccess: true
   - authors: Kaplan J. L. et al.
     year: 2018
     title: Taurine deficiency and dilated cardiomyopathy in golden retrievers fed commercial diets
     journal: PLOS ONE
     doi: 10.1371/journal.pone.0209112
     openAccess: true
-  - authors: Adin D. et al.
-    year: 2019
-    title: Echocardiographic phenotype of canine dilated cardiomyopathy differs based on diet type
-    journal: Journal of Veterinary Cardiology
-    doi: 10.1016/j.jvc.2018.11.002
-    openAccess: false
   - authors: Haimovitz D. et al.
     year: 2022
     title: Effect of diet change in healthy dogs with subclinical cardiac biomarker or echocardiographic abnormalities
     journal: Journal of Veterinary Internal Medicine
     doi: 10.1111/jvim.16416
-    openAccess: true
-  - authors: Mansilla W. D. et al.
-    year: 2019
-    title: 'Special topic: The association between pulse ingredients and canine dilated cardiomyopathy: addressing the knowledge gaps before establishing causation'
-    journal: Journal of Animal Science
-    doi: 10.1093/jas/sky488
-    openAccess: true
-  - authors: McCauley S. R. et al.
-    year: 2020
-    title: Review of canine dilated cardiomyopathy in the wake of diet-associated concerns
-    journal: Journal of Animal Science
-    doi: 10.1093/jas/skaa155
-    openAccess: true
-  - authors: Quest B. W. et al.
-    year: 2022
-    title: 'Incidence of canine dilated cardiomyopathy diagnosed at referral institutes and grain-free pet food store sales: a retrospective survey'
-    journal: Frontiers in Animal Science
-    doi: 10.3389/fanim.2022.846227
     openAccess: true
 ---
 
@@ -148,9 +88,9 @@ Nobody has shown the opposite either: there are no long-term trials comparing th
 
 What the research does show is narrower:
 
-- Different diets change stools and gut bacteria, but the studies are small and short.
+- Diet changes the bacteria in a dog's gut, but nobody knows whether that matters for health.
 - Raw food often carries bacteria that can make dogs and people ill, including resistant strains.
-- Most home-made recipes are missing nutrients.
+- Recipes and ready-made raw foods that were tested often lacked nutrients.
 
 ## The diets compared
 
@@ -166,52 +106,31 @@ What the research does show is narrower:
 
 ### Digestion and stools
 
-- **Fresh food is digested more completely.**
-  In a [trial of eight dogs](https://doi.org/10.1093/jas/sky235) that each ate kibble, two lightly cooked diets and a raw diet for four weeks, dogs digested more of the protein and fat in the lightly cooked diets than in kibble.
-  All four diets were well tolerated, stool quality did not differ, and all dogs stayed healthy.
-  One author worked for Freshpet, a maker of lightly cooked dog food.
-- **Dogs on fresh cooked food produce less faeces than dogs on kibble.**
-  In a [similar trial of 12 dogs](https://doi.org/10.1093/jas/skab028), dogs eating kibble needed more food to hold their weight and produced 1.5 to 2.9 times as much faeces as dogs on lightly cooked fresh or human-grade food.
-  None of the diets was raw.
-  Stool scores, blood chemistry and blood counts were not greatly affected by diet.
-  The trial was funded by JustFoodForDogs, which made two of the foods.
-- **Dogs on raw food usually produce less faeces than dogs on kibble.**
-  In a [trial of 10 Beagles](https://doi.org/10.1093/tas/txae163) that each ate kibble, a lightly cooked fresh food and three raw foods for five weeks, dogs produced 90 g of faeces a day on kibble and 37 to 40 g on raw food.
-  Dried, that was 25 g against 13 to 15 g.
-  On the fresh food they produced 56 g, but the same dry weight as on raw food; the difference was water.
-  The trial was funded by Primal, which made two of the raw foods, and one author works there.
-  In a [nine-week trial of 15 hounds](https://doi.org/10.7717/peerj.3019), dogs fed kibble produced about 200 g of faeces a day and dogs fed raw red meat about 56 g, or roughly 65 g against 28 g dried.
-  Each dog ate only one of the diets, and the kibble-fed dogs ate more dry food.
-  Makers of raw and air-dried dog food contributed to the funding.
-  In the [eight-dog trial](https://doi.org/10.1093/jas/sky235), raw food did not reduce faeces: dogs produced 102 g a day on raw food and 84 g on kibble, and the same dry weight of about 29 g on both.
-
-These trials were small and short, and pet food makers helped pay for all of them.
-Less faeces means more of the food was digested; none of the trials measured whether that makes dogs healthier.
+Raw and fresh food are often said to be digested better and to give smaller stools.
+I could not find an independent study that measured this; the trials I found were funded by pet-food companies, which I don't cite.
 
 ### Gut bacteria
 
-Diet changes the bacteria in a dog's gut, but the studies disagree on whether raw food changes them for the better.
+Diet changes the bacteria in a dog's gut, but nobody knows whether raw food changes them for the better.
 
-- In [eight Boxers](https://doi.org/10.1186/s12917-017-0981-z) fed raw food for two weeks, the variety of gut bacteria increased, and the authors read this as a healthier gut.
-- In [46 dogs](https://doi.org/10.1371/journal.pone.0201279) fed raw (BARF) or commercial food, raw-fed dogs carried more _E. coli_ and _Clostridium perfringens_ and scored higher on a measure of gut imbalance, and there was no difference in variety.
-- In the [eight-dog trial](https://doi.org/10.1093/jas/sky235), the raw and grain-free lightly cooked diets _reduced_ the variety of gut bacteria compared with kibble.
+- [55 dogs](https://doi.org/10.3389/fvets.2024.1328513) that had eaten kibble or raw food for over a year were fed one brand of their usual type for four weeks.
+  The raw-fed dogs had a greater variety of gut bacteria and more antibodies in their faeces, but the same markers of inflammation in their blood.
+  The two groups also differed in breed and body condition, and the authors caution that more variety does not by itself mean a healthier gut.
 
-The two trials lasted only weeks, and none of the three studies measured whether the changes affect a dog's health.
+The study did not measure whether the changes affect a dog's health.
 
 ### Coat, teeth and allergies
 
-- Owners who feed raw most often name [health, coat and teeth](https://doi.org/10.7717/peerj.10383) as its benefits.
+- In an Italian survey of [218 owners who feed raw](https://doi.org/10.1186/s12917-019-1824-x), a shinier coat, more muscle and cleaner teeth were the main improvements owners said they saw.
   I could not find a controlled study that measured coat or teeth in raw-fed dogs against kibble-fed dogs.
-- In a Finnish survey of [4,022 dogs](https://doi.org/10.1111/jvim.16211), dogs that ate raw tripe or raw organ meat as puppies were less likely to have allergy-like skin signs as adults, according to their owners.
-  Puppies fed fruit were _more_ likely to have them.
-  The diagnosis came from owners, not vets, and the authors state that the study does not prove cause.
+- I could not find an independent study of raw feeding and allergies.
 
 ### What owners believe
 
 Owner surveys explain the popularity of raw feeding better than they measure its effects.
 
-- Of 419 owners in an [international survey](https://doi.org/10.7717/peerj.10383), raw feeders rated raw diets highly nutritious 74 to 84% of the time, and commercial cooked food only 12.5% of the time.
-  They rated raw food risky to people or dogs less than 20% of the time.
+- In the [Italian survey](https://doi.org/10.1186/s12917-019-1824-x), 94% of owners believed raw food was completely safe for dogs.
+  More than half got their information from the internet, and only 8% had a vet put the diet together.
 - In a US survey of [2,171 owners](https://doi.org/10.7717/peerj.3031), only 9% of those feeding raw had asked a vet about it, while 20% relied on online sources.
 
 Surveys rely on what owners report and on which owners choose to answer, so they cannot show whether one diet is healthier.
@@ -222,67 +141,64 @@ This is where the evidence is strongest, and it all points the same way.
 
 ### In the food
 
-- **Netherlands:** of [35 frozen raw products](https://doi.org/10.1136/vr.104535) from eight brands, 80% contained ESBL-producing _E. coli_, 54% _Listeria monocytogenes_, 23% _E. coli_ O157:H7 and 20% _Salmonella_.
+- Of [35 frozen raw products](https://doi.org/10.1136/vr.104535) from eight brands, 80% contained ESBL-producing _E. coli_, 54% _Listeria monocytogenes_, 23% _E. coli_ O157:H7 and 20% _Salmonella_.
   Two contained the parasite _Toxoplasma_; the authors warn that parasites are a risk mainly when the meat has not been frozen.
-- **Switzerland:** 73% of [51 raw products](https://doi.org/10.1098/rsos.191170) failed the EU hygiene standard for pet food, 63% carried antibiotic-resistant bacteria, and two carried bacteria resistant to the antibiotic colistin.
-- **United States:** testing by the [Food and Drug Administration](https://doi.org/10.1089/fpd.2014.1748) found pathogens in 2 of 480 dry and semi-moist foods.
+- 73% of [51 raw products](https://doi.org/10.1098/rsos.191170) failed the EU hygiene standard for pet food, 63% carried antibiotic-resistant bacteria, and two carried bacteria resistant to the antibiotic colistin.
+- Testing by the [Food and Drug Administration](https://doi.org/10.1089/fpd.2014.1748) found pathogens in 2 of 480 dry and semi-moist foods.
   Of 576 raw foods and jerky treats, 66 carried _Listeria_ and 15 _Salmonella_.
 
 ### In the dog
 
 Raw-fed dogs shed these bacteria in their faeces.
 
-- In the UK, [raw-fed dogs](https://doi.org/10.1111/jsap.13488) were far more likely than other dogs to carry _E. coli_ resistant to third-generation cephalosporins (31% against 4%), a class of antibiotics critical in human medicine.
+- [Raw-fed dogs](https://doi.org/10.1111/jsap.13488) were far more likely than other dogs to carry _E. coli_ resistant to third-generation cephalosporins (31% against 4%), a class of antibiotics critical in human medicine.
   _Salmonella_ was found in eight dogs, all of them raw-fed.
-- In Sweden, [13 of 25 raw-fed dogs](https://doi.org/10.1136/vr.105644) shed ESBL-producing _E. coli_, against 1 of 25 kibble-fed dogs.
+- [13 of 25 raw-fed dogs](https://doi.org/10.1136/vr.105644) shed ESBL-producing _E. coli_, against 1 of 25 kibble-fed dogs.
   _Campylobacter_ was found in 12 raw-fed dogs and 4 kibble-fed dogs.
+
+Studies above counted bacteria, not illness.
 
 ### In the household
 
 The bacteria reach people through the food, the bowls, the kitchen and the dog's faeces.
-The UK researchers singled out households with [very young, elderly or immunocompromised members](https://doi.org/10.1111/jsap.13488), human or canine.
+UK researchers singled out households with [very young, elderly or immunocompromised members](https://doi.org/10.1111/jsap.13488), human or canine.
+In England in 2017, [four people](https://doi.org/10.1017/S0950268821001072) fell ill with related strains of a dangerous _E. coli_ (O157), and one died.
+Three had been in contact with dogs fed raw meat, two of them raw tripe from the same shop.
+A toxin-producing _E. coli_ was found in raw tripe, though not the strain that made them ill.
 
-These studies counted bacteria, not illness.
 How often raw feeding makes dogs or people sick has not been measured.
 
 ## Nutritional gaps in home-made diets
 
 Commercial food labelled complete and balanced is formulated to meet nutrient standards.
-Home-made food rarely is.
+Home-made food often is not.
 
-- **Published recipes:** every one of [80 dog recipes](https://doi.org/10.1017/jns.2017.31) published in Portuguese fell short on at least one nutrient.
-  Most were low in copper, choline, vitamin E, zinc, calcium or iron, and almost half gave no exact quantities.
-- **Raw rations:** 60% of [95 German BARF rations](https://doi.org/10.1017/S0007114511002765) were unbalanced.
-  One in ten supplied less than a quarter of the calcium a dog needs, and about half supplied too little iodine.
-- **Following the recipe:** even when a veterinary nutritionist wrote the recipe, only [4 of 30 owners](https://doi.org/10.1111/jsap.12412) were still following it exactly.
+- **Published recipes:** the large studies of published recipes that I found were either funded by pet-food companies, which I don't cite, or I could not read their funding statements.
+- **Recipes from AI chatbots:** when four chatbots were asked for complete diets for an adult dog, [10 of their 11 recipes](https://doi.org/10.1016/j.vas.2026.100761) were low in calcium, 9 in choline and 7 in vitamin D.
+- **Ready-made raw food:** none of [33 raw foods](https://doi.org/10.1038/s41598-025-27388-w) sold in Hungary as complete met all the mineral recommendations for dogs.
+  All were low in selenium, and two containing game meat had too much lead.
+- **Following the recipe:** I could not find an independent study whose funding I could check on how closely owners stick to a recipe.
 
-These studies analysed recipes with software rather than testing the dogs, so they show a risk, not how many dogs became ill.
+These studies analysed recipes and foods, not the dogs eating them, so they show a risk, not how many dogs became ill.
 If you cook for your dog, keep [toxic foods](/faq/which-substances-are-toxic-to-dogs) out of the pot.
 
 ## Grain-free diets and heart disease
 
 Dilated cardiomyopathy (DCM) is a disease in which the heart muscle weakens and the heart enlarges.
-In July 2018, the US Food and Drug Administration [warned of a possible link](https://doi.org/10.1093/jas/sky488) between DCM and dog foods made with peas, lentils or potatoes, many of them sold as grain-free.
+In 2018, the US Food and Drug Administration began [investigating](https://doi.org/10.1371/journal.pone.0209112) a rise in DCM cases suspected to be linked to diet.
 
-**The link is unproven, and so is the claim that there is no link.**
+**The link is unproven.**
 
 What points towards diet:
 
 - Of [24 Golden Retrievers](https://doi.org/10.1371/journal.pone.0209112) with DCM and low taurine, 23 ate grain-free or legume-rich food, and 23 improved after changing diet and taking taurine.
-- In [48 dogs with DCM](https://doi.org/10.1016/j.jvc.2018.11.002), those eating grain-free food had larger hearts, without low taurine.
-  The seven that were rechecked after a diet change improved.
 - In [20 healthy dogs](https://doi.org/10.1111/jvim.16416) with early, symptom-free heart changes, the ten that switched from grain-free food improved over a year more than the ten that switched from grain-inclusive food.
 
 What points away from it:
 
-- Records from [14 US referral hospitals](https://doi.org/10.3389/fanim.2022.846227) showed no national rise in DCM between 2000 and 2019, and no link with rising sales of grain-free food.
-  The same data did show a rise in DCM among mixed-breed dogs, and only 14 of the 88 hospitals asked took part.
-- A [review](https://doi.org/10.1093/jas/skaa155) found no definitive link between grain-free or legume-rich diets and DCM, and noted that cases reported to the FDA are a biased sample.
+- I could not find an independent study that argues against a link; the ones I found were funded by the pet-food or pulse industries, which I don't cite.
 
-The studies on both sides are small or observational.
-No controlled trial has fed dogs pulse-rich diets and watched for DCM, and no mechanism has been confirmed.
-Pulses [can be part of a balanced diet](https://doi.org/10.1093/jas/sky488); how the whole food is formulated may matter more than any single ingredient.
-Authors on both sides of the debate have ties to the pet food or ingredient industries.
+Both studies above are small, and neither proves that the food caused the disease.
 
 ## What to do
 

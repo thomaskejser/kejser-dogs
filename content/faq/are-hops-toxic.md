@@ -15,12 +15,6 @@ references:
     journal: Frontiers in Veterinary Science
     doi: 10.3389/fvets.2016.00026
     openAccess: true
-  - authors: Pfaff A. et al.
-    year: 2022
-    title: 'Retrospective analysis of hops toxicosis in dogs (2002–2014): 71 cases'
-    journal: Journal of Veterinary Emergency and Critical Care
-    doi: 10.1111/vec.13141
-    openAccess: false
   - authors: Becker J. et al.
     year: 2023
     title: A retrospective evaluation of hops ingestion in 177 dogs (2005–2018)
@@ -42,18 +36,18 @@ Signs usually appear [2 to 8 hours after eating](https://doi.org/10.1111/vec.132
 The most common are:
 
 - Fast breathing
-- Very high body temperature, seen in [96% of poisoned dogs](https://doi.org/10.1111/vec.13141)
+- Very high body temperature, seen in [half of the dogs with signs](https://doi.org/10.1111/vec.13282)
 - Vomiting
 - Restlessness, belly pain and seizures in severe cases
 
-In dogs that survived, the signs settled within 24 hours.
+In almost every dog that survived, the signs settled within 24 hours.
 
 ## How dangerous is it?
 
 - **Not every dog gets ill**: in [177 dogs](https://doi.org/10.1111/vec.13282) that ate hops, 74% showed signs.
-- **Most dogs survive**: 77% of [71 dogs](https://doi.org/10.1111/vec.13141) treated intensively survived, and 95% of the dogs with a known outcome in the larger study.
-- **Body temperature is the warning sign**: every degree of fever raised the chance of death by 78%.
-- **Deaths come quickly**: dogs that died did so within a median of about 11 hours.
+- **Most dogs survive**: 95% of the dogs with a known outcome survived.
+- **Body temperature is the warning sign**: 3 of the 8 dogs whose temperature rose above 41.4 °C died.
+- **Severe cases can still be fatal**: in an older report, [4 of 5 dogs](https://doi.org/10.2460/javma.1997.210.01.51) died despite intensive treatment.
 
 ### At what dose do symptoms appear?
 
@@ -67,5 +61,5 @@ Note what was eaten, roughly how much, and when.
 ### What will the Vet do?
 
 Vets will act quickly to empty your dog's stomach.
-They will cool your dog with ice baths and cold fluids through an IV drip, and may give dantrolene, a drug used to treat this kind of overheating.
-No single treatment has yet been shown to improve survival, so close monitoring of body temperature is key.
+They will cool your dog with [ice baths and cold fluids](https://doi.org/10.3389/fvets.2016.00026) through an IV drip, and may give dantrolene, a drug used to treat this kind of overheating in people.
+I could not find an independent study that tested which treatment improves survival, so close monitoring of body temperature is key.

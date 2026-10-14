@@ -21,12 +21,6 @@ references:
     journal: Journal of Veterinary Internal Medicine
     doi: 10.1111/j.1939-1676.2011.00755.x
     openAccess: false
-  - authors: Clarke C. & Burney D.
-    year: 2017
-    title: Cycad palm toxicosis in 14 dogs from Texas
-    journal: Journal of the American Animal Hospital Association
-    doi: 10.5326/JAAHA-MS-6517
-    openAccess: false
   - authors: Maeso C. et al.
     year: 2020
     title: 'Presumptive cycad toxicosis in a dog. Clinical and magnetic resonance imaging findings: a case report'
@@ -38,7 +32,7 @@ references:
 The sago palm is toxic to dogs, as are other cycads.
 These popular garden and house plants can cause **liver failure**.
 
-Between 12% and 64% of poisoned dogs died, depending on the study.
+Between 12% and 50% of poisoned dogs died, depending on the study.
 
 ## Signs of sago palm poisoning
 
@@ -53,8 +47,7 @@ Blood tests may not show liver damage for another one to two days:
 
 - **Seeds are the most dangerous part**: dogs that ate seeds tended to be more seriously ill.
 - **Most poisoned dogs get ill**: [82% of 130 dogs](https://doi.org/10.1111/avj.13007) showed signs.
-- **Death rates vary widely**: 12% of 130 dogs, about a third of [60 dogs](https://doi.org/10.2460/javma.1998.213.01.99), half of [34 dogs](https://doi.org/10.1111/j.1939-1676.2011.00755.x) and 64% of [14 dogs](https://doi.org/10.5326/JAAHA-MS-6517) died.
-- **Some survivors keep liver damage**: three of the five survivors in the smallest study still had raised liver values.
+- **Death rates vary widely**: 12% of 130 dogs, about a third of [60 dogs](https://doi.org/10.2460/javma.1998.213.01.99) and half of [34 dogs](https://doi.org/10.1111/j.1939-1676.2011.00755.x) died.
 
 ### At what dose do symptoms appear?
 

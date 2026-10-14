@@ -15,24 +15,6 @@ references:
     journal: Frontiers in Veterinary Science
     doi: 10.3389/fvets.2016.00026
     openAccess: true
-  - authors: DuHadway M. R. et al.
-    year: 2015
-    title: 'Retrospective evaluation of xylitol ingestion in dogs: 192 cases (2007–2012)'
-    journal: Journal of Veterinary Emergency and Critical Care
-    doi: 10.1111/vec.12350
-    openAccess: false
-  - authors: Lovell T. et al.
-    year: 2025
-    title: 'Retrospective evaluation of the incidence and risk factors associated with the development of a hepatopathy in xylitol ingestion: 95 dogs (2018–2022)'
-    journal: Journal of Veterinary Emergency and Critical Care
-    doi: 10.1111/vec.70041
-    openAccess: false
-  - authors: Xia Z., He Y. & Yu J.
-    year: 2009
-    title: Experimental acute toxicity of xylitol in dogs
-    journal: Journal of Veterinary Pharmacology and Therapeutics
-    doi: 10.1111/j.1365-2885.2009.01065.x
-    openAccess: false
   - authors: Schmid R. D. & Hovda L. R.
     year: 2016
     title: Acute hepatic failure in a dog after xylitol ingestion
@@ -49,7 +31,7 @@ Large doses can cause liver failure and death.
 ## Signs of xylitol poisoning
 
 - Vomiting and lethargy
-- Weakness, wobbling or collapse from low blood sugar; in a study of dogs given xylitol, [blood sugar began to fall within 30 minutes](https://doi.org/10.1111/j.1365-2885.2009.01065.x), though it can be delayed up to 12 hours
+- Weakness, wobbling or collapse from low blood sugar, which can begin [within 30 to 60 minutes](https://doi.org/10.3389/fvets.2016.00026) or be delayed up to 12 hours
 - Bruising or bleeding as the liver fails, which [can begin within a day](https://doi.org/10.1007/s13181-015-0531-7)
 
 ## How dangerous is it?
@@ -58,19 +40,15 @@ The risk depends on how much xylitol is eaten:
 
 - **Small amounts** can cause a dangerous drop in blood sugar.
 - **Larger amounts** can also damage the liver; of [eight dogs](https://doi.org/10.2460/javma.229.7.1113) with liver failure, five died or were put to sleep.
-- **Prompt treatment works**: all [192 dogs](https://doi.org/10.1111/vec.12350) in a large study survived.
 - **More and more products contain xylitol**, so check the label on anything sugar-free.
 
 ### At what dose do symptoms appear?
 
-There is no reliable safe dose.
-In the [192 dogs](https://doi.org/10.1111/vec.12350), doses ranged from 0.03 to 3.64 g/kg, with a median of 0.32 g/kg.
-Thirty of them developed low blood sugar, and dogs that showed signs had eaten more than those that did not.
+There is no known safe dose.
+I could not find an independent study that measured the lowest dose that causes low blood sugar; the ones I found had funding I could not check, which I don't cite.
 
-Liver damage is harder to predict.
-In [95 dogs](https://doi.org/10.1111/vec.70041) that ate xylitol, about half developed raised liver values, none developed liver failure, and the dose eaten did not predict which dogs were affected.
-
-For example, the median dose in the large study would be about 1.2 g of xylitol for a poodle of 3.8 kg.
+For liver failure, the lowest dose seen in US poison-centre data is [0.5 g per kg](https://doi.org/10.3389/fvets.2016.00026) of body weight.
+For example, that would be about 1.9 g of xylitol for a poodle of 3.8 kg.
 In one reported case, a Standard Poodle [died after eating five or six cookies](https://doi.org/10.3389/fvets.2016.00026) sweetened with xylitol.
 
 ## What to do?
@@ -82,8 +60,7 @@ Bring the packaging if you can.
 ### What will the Vet do?
 
 Vets may make your dog vomit, but only soon after eating and before signs appear.
-This helps: dogs made to vomit were [less likely to develop liver damage](https://doi.org/10.1111/vec.70041).
-Activated charcoal does _not_ work against xylitol.
+Activated charcoal does _not_ work against xylitol, because it [binds xylitol poorly](https://doi.org/10.3389/fvets.2016.00026).
 
-Blood sugar often keeps dropping after a dog arrives at the vet, so it will be monitored, along with the liver.
+Your dog's blood sugar and liver will be monitored.
 Your dog will be given sugar (dextrose) through an IV drip if its blood sugar drops.
