@@ -33,12 +33,6 @@ references:
     journal: British Journal of Psychology
     doi: 10.1111/j.2044-8295.1998.tb02696.x
     openAccess: false
-  - authors: Sheldrake R. & Smart P.
-    year: 2000
-    title: Testing a return-anticipating dog, Kane
-    journal: Anthrozoös
-    doi: 10.2752/089279300786999716
-    openAccess: false
 ---
 
 Partly.
@@ -85,23 +79,15 @@ The dog study has never been repeated, as far as I can find, and no one has test
 ## Do dogs know when I set off home?
 
 Many owners believe their dog knows when they start their journey home.
-The two controlled tests I found disagree, and each studied a single dog.
+The only controlled test I cite studied a single dog.
 
-- **A sceptical test found nothing.**
-  British psychologists tested Jaytee, a terrier cross whose family said he waited at the porch when his owner set off home.
-  In four experiments, the owner set off from 5.5 to 11 miles away at a randomly chosen time, and a judge who did not know that time reviewed the video.
-  Jaytee's "signal" [never fell in the right time window](https://doi.org/10.1111/j.2044-8295.1998.tb02696.x).
-  He went to the porch or window 4 to 13 times per session, often when a car pulled up or someone walked past.
-  The researchers changed the definition of a signal after the first experiment, which weakens a strict reading of the result.
-- **A proponent's test found a pattern.**
-  Rupert Sheldrake, who proposed the idea, filmed Kane, a Rhodesian ridgeback, in 10 trials while his owner was at least 8 km away.
-  Kane was at the window [1% of the time during most of her absence, and 26% of the time while she was travelling home](https://doi.org/10.2752/089279300786999716), with the video scored by a rater who did not know the times.
-  But in 7 of the 10 trials the owner chose and noted down her own departure time, and in one of the 3 trials with a random departure time Kane did not go to the window at all.
-  The authors' preferred explanation is telepathy, for which, as they acknowledge, no one knows a mechanism.
+British psychologists tested Jaytee, a terrier cross whose family said he waited at the porch when his owner set off home.
+In four experiments, the owner set off from 5.5 to 11 miles away at a randomly chosen time, and a judge who did not know that time reviewed the video.
+Jaytee's "signal" [never fell in the right time window](https://doi.org/10.1111/j.2044-8295.1998.tb02696.x).
+He went to the porch or window 4 to 13 times per session, often when a car pulled up or someone walked past.
+The researchers changed the definition of a signal after the first experiment, which weakens a strict reading of the result.
 
-Sheldrake also [argues that Jaytee's full video record supports his view](https://doi.org/10.2752/089279300786999716), and the British authors have disputed that.
-Two dogs, studied by researchers on opposite sides of the debate, cannot settle it.
-I would not conclude that dogs sense when you set off home.
+One dog is not much evidence, but I found no sound study showing that dogs sense when you set off home.
 
 ## Do dogs tell time by smell?
 
@@ -116,9 +102,7 @@ I found no study that has tested it.
 Many owners say their dog starts nagging at the same time every day.
 That may well be true, but I found no peer-reviewed study of dogs anticipating meal times, walk times or an owner's usual return time.
 
-The British Jaytee study lists learning the owner's routine as one of the ordinary explanations for a dog that seems to know when someone is coming home.
-Neither study tested it directly.
-Kane's window visits showed [no regular time-of-day pattern](https://doi.org/10.2752/089279300786999716), but his owner came home at irregular times anyway.
+The British Jaytee study lists learning the owner's routine as one of the ordinary explanations for a dog that seems to know when someone is coming home, but it did not test it directly.
 
 So whether dogs anticipate clock times, or react to cues such as you moving towards the lead or the light changing, is unknown.
 
@@ -126,7 +110,7 @@ So whether dogs anticipate clock times, or react to cues such as you moving towa
 
 - **Seconds:** dogs time short intervals much as other mammals do.
 - **Hours:** dogs react differently after 2 hours alone than after 30 minutes, but that rests on one study of 12 dogs.
-- **Everything else**, from smelling time to sensing your journey home to knowing dinner time, is anecdote, an untested idea or disputed single-dog studies.
+- **Everything else**, from smelling time to sensing your journey home to knowing dinner time, is anecdote, an untested idea or a single negative test.
 
 How well dogs [remember past events](/faq/do-dogs-remember-past-events) and [how long their memory lasts](/faq/how-long-is-a-dogs-memory) are separate questions.
 
