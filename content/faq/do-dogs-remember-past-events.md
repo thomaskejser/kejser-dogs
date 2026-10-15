@@ -155,6 +155,7 @@ I found no independent study of how long dogs remember people they know well, su
 
 ## Related questions
 
+- [How long do dogs remember a person?](/faq/how-long-do-dogs-remember-a-person)
 - [How long can a dog remember things?](/faq/how-long-is-a-dogs-memory)
 - [Do dogs have a sense of time?](/faq/do-dogs-have-a-sense-of-time)
 - [Does exercise help keep an older dog's mind sharp?](/faq/does-exercise-help-an-older-dogs-mind)

@@ -116,6 +116,7 @@ How well dogs [remember past events](/faq/do-dogs-remember-past-events) and [how
 
 ## Related questions
 
+- [How long do dogs remember a person?](/faq/how-long-do-dogs-remember-a-person)
 - [Do dogs remember past events, or do they live in the moment?](/faq/do-dogs-remember-past-events)
 - [How long can a dog remember things?](/faq/how-long-is-a-dogs-memory)
 - [How often should I walk my dog?](/faq/how-often-should-i-walk-my-dog)

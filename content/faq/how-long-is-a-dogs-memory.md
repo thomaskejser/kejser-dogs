@@ -162,6 +162,7 @@ Whether dogs [remember particular past events](/faq/do-dogs-remember-past-events
 
 ## Related questions
 
+- [How long do dogs remember a person?](/faq/how-long-do-dogs-remember-a-person)
 - [Do dogs remember past events, or do they live in the moment?](/faq/do-dogs-remember-past-events)
 - [Do dogs have a sense of time?](/faq/do-dogs-have-a-sense-of-time)
 - [Does exercise help keep an older dog's mind sharp?](/faq/does-exercise-help-an-older-dogs-mind)
