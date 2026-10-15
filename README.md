@@ -45,7 +45,7 @@ The front page lists every question by category; each question has its own URL a
 - Quote a `title` that contains a colon.
 - Check every new DOI resolves to the right paper before adding it.
 - The answer body must not be empty.
-- `category` is one of `Nutrition and feeding`, `Aging`, `Care` or `Breeds`, defined in `src/lib/faq.ts`; the front page shows them in that order.
+- `category` is one of `Nutrition and feeding`, `Aging`, `Care`, `Breeds` or `Behavior`, defined in `src/lib/faq.ts`; the front page shows them in that order.
 
 ## Other pages
 

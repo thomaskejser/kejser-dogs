@@ -76,7 +76,7 @@ describe('parseFaq', () => {
 	it('rejects a category outside the fixed list', () => {
 		const source = valid.replace('category: Nutrition and feeding', 'category: Health');
 		expect(() => parseFaq('grapes', source)).toThrow(
-			/category "Health" is not one of Nutrition and feeding, Aging, Care, Breeds/
+			/category "Health" is not one of Nutrition and feeding, Aging, Care, Breeds, Behavior/
 		);
 	});
 
