@@ -23,10 +23,9 @@ export async function parsePage(slug: string, source: string): Promise<Page> {
 	return { slug, title, description: requireText(frontMatter, 'description', where), html };
 }
 
-const pages: Page[] = [];
-for (const [path, source] of Object.entries(sources)) {
-	pages.push(await parsePage(slugFromPath(path), source));
-}
+const pages: Page[] = await Promise.all(
+	Object.entries(sources).map(([path, source]) => parsePage(slugFromPath(path), source))
+);
 
 export function allPages(): Page[] {
 	return pages;

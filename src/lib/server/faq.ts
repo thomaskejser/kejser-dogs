@@ -96,11 +96,11 @@ export function linkFaqs(sources: FaqSource[]): Faq[] {
 	return faqs.sort((a, b) => a.question.localeCompare(b.question));
 }
 
-const parsed: FaqSource[] = [];
-for (const [path, source] of Object.entries(sources)) {
-	parsed.push(await parseFaq(slugFromPath(path), source));
-}
-const faqs: Faq[] = linkFaqs(parsed);
+const faqs: Faq[] = linkFaqs(
+	await Promise.all(
+		Object.entries(sources).map(([path, source]) => parseFaq(slugFromPath(path), source))
+	)
+);
 
 export function allFaqs(): Faq[] {
 	return faqs;
