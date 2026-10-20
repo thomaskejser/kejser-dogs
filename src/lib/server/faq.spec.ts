@@ -1,9 +1,9 @@
-import { describe, expect, it } from 'vitest';
+import { beforeAll, describe, expect, it } from 'vitest';
 import { categories } from '#lib/faq.ts';
 import { allFaqs, faqsByCategory, findFaq, linkFaqs, parseFaq } from './faq';
+import type { FaqSource } from './faq';
 
 const valid = `---
-question: Can dogs eat grapes?
 summary: No. Grapes are toxic to dogs.
 category: Nutrition and feeding
 references:
@@ -15,12 +15,14 @@ references:
     openAccess: true
 ---
 
+# Can dogs eat grapes?
+
 Grapes and raisins can cause **kidney failure**.
 `;
 
 describe('parseFaq', () => {
-	it('parses front matter and renders the answer to HTML', () => {
-		const faq = parseFaq('grapes', valid);
+	it('parses front matter and renders the answer to HTML', async () => {
+		const faq = await parseFaq('grapes', valid);
 		expect(faq).toMatchObject({
 			slug: 'grapes',
 			question: 'Can dogs eat grapes?',
@@ -28,6 +30,7 @@ describe('parseFaq', () => {
 			category: 'Nutrition and feeding'
 		});
 		expect(faq.html).toContain('<strong>kidney failure</strong>');
+		expect(faq.html).not.toContain('<h1');
 		expect(faq.references).toEqual([
 			{
 				authors: 'Smith A. et al.',
@@ -42,51 +45,65 @@ describe('parseFaq', () => {
 		]);
 	});
 
-	it('rejects a question with neither category nor parent', () => {
+	it('rejects a question with neither category nor parent', async () => {
 		const source = valid.replace('category: Nutrition and feeding\n', '');
-		expect(() => parseFaq('grapes', source)).toThrow(/needs a category, or a parent/);
+		await expect(parseFaq('grapes', source)).rejects.toThrow(/needs a category, or a parent/);
 	});
 
-	it('rejects a question with both category and parent', () => {
+	it('rejects a question with both category and parent', async () => {
 		const source = valid.replace(
 			'category: Nutrition and feeding',
 			'category: Nutrition and feeding\nparent: toxins'
 		);
-		expect(() => parseFaq('grapes', source)).toThrow(/either a category or a parent/);
+		await expect(parseFaq('grapes', source)).rejects.toThrow(/either a category or a parent/);
 	});
 
-	it('rejects a blank required field', () => {
+	it('rejects a blank required field', async () => {
 		const source = valid.replace('summary: No. Grapes are toxic to dogs.', 'summary: "  "');
-		expect(() => parseFaq('grapes', source)).toThrow(/"summary"/);
+		await expect(parseFaq('grapes', source)).rejects.toThrow(/"summary"/);
 	});
 
-	it('rejects unknown front matter fields', () => {
+	it('rejects unknown front matter fields', async () => {
 		const source = valid.replace(
 			'category: Nutrition and feeding',
 			'category: Nutrition and feeding\nauthor: Rex'
 		);
-		expect(() => parseFaq('grapes', source)).toThrow(/unknown front matter field\(s\): author/);
+		await expect(parseFaq('grapes', source)).rejects.toThrow(
+			/unknown front matter field\(s\): author/
+		);
 	});
 
-	it('rejects an empty answer body', () => {
+	it('rejects an empty answer body', async () => {
 		const source = valid.slice(0, valid.lastIndexOf('---') + 3);
-		expect(() => parseFaq('grapes', source)).toThrow(/body is empty/);
+		await expect(parseFaq('grapes', source)).rejects.toThrow(/body is empty/);
 	});
 
-	it('rejects a category outside the fixed list', () => {
+	it('rejects a category outside the fixed list', async () => {
 		const source = valid.replace('category: Nutrition and feeding', 'category: Health');
-		expect(() => parseFaq('grapes', source)).toThrow(
+		await expect(parseFaq('grapes', source)).rejects.toThrow(
 			/category "Health" is not one of Nutrition and feeding, Aging, Care, Breeds, Behavior/
 		);
 	});
 
-	it('rejects an answer without references', () => {
+	it('rejects an answer without references', async () => {
 		const source = valid.replace(/references:[\s\S]*?openAccess: true\n/, '');
-		expect(() => parseFaq('grapes', source)).toThrow(/at least one peer-reviewed source/);
+		await expect(parseFaq('grapes', source)).rejects.toThrow(/at least one peer-reviewed source/);
 	});
 
-	it('rejects a slug that is not kebab-case', () => {
-		expect(() => parseFaq('Grapes_Toxic', valid)).toThrow(/kebab-case/);
+	it('rejects a question in front matter', async () => {
+		const source = valid.replace('summary:', 'question: Can dogs eat grapes?\nsummary:');
+		await expect(parseFaq('grapes', source)).rejects.toThrow(
+			/unknown front matter field\(s\): question/
+		);
+	});
+
+	it('rejects a relative link to a file that is not Markdown', async () => {
+		const source = valid.replace('**kidney failure**', '[x](grapes.html)');
+		await expect(parseFaq('grapes', source)).rejects.toThrow(/must point to a .md file/);
+	});
+
+	it('rejects a slug that is not kebab-case', async () => {
+		await expect(parseFaq('Grapes_Toxic', valid)).rejects.toThrow(/kebab-case/);
 	});
 });
 
@@ -97,11 +114,16 @@ function faq(slug: string, frontMatter: string, body = 'Body.'): string {
 }
 
 describe('linkFaqs', () => {
-	const hub = parseFaq(
-		'toxins',
-		faq('toxins', 'category: Nutrition and feeding', '- [Grapes](/faq/grapes)')
-	);
-	const child = parseFaq('grapes', faq('grapes', 'parent: toxins'));
+	let hub: FaqSource;
+	let child: FaqSource;
+
+	beforeAll(async () => {
+		hub = await parseFaq(
+			'toxins',
+			faq('toxins', 'category: Nutrition and feeding', '- [Grapes](grapes.md)')
+		);
+		child = await parseFaq('grapes', faq('grapes', 'parent: toxins'));
+	});
 
 	it("gives a child its parent and its parent's category", () => {
 		const linked = linkFaqs([hub, child]);
@@ -120,34 +142,34 @@ describe('linkFaqs', () => {
 		expect(() => linkFaqs([child])).toThrow(/parent "toxins" does not exist/);
 	});
 
-	it('rejects a parent that has a parent itself', () => {
-		const grandchild = parseFaq('raisins', faq('raisins', 'parent: grapes'));
-		const linkingChild = parseFaq(
+	it('rejects a parent that has a parent itself', async () => {
+		const grandchild = await parseFaq('raisins', faq('raisins', 'parent: grapes'));
+		const linkingChild = await parseFaq(
 			'grapes',
-			faq('grapes', 'parent: toxins', '- [Raisins](/faq/raisins)')
+			faq('grapes', 'parent: toxins', '- [Raisins](raisins.md)')
 		);
 		expect(() => linkFaqs([hub, linkingChild, grandchild])).toThrow(/has a parent itself/);
 	});
 
-	it('rejects a parent that does not link to its child', () => {
-		const silentHub = parseFaq(
+	it('rejects a parent that does not link to its child', async () => {
+		const silentHub = await parseFaq(
 			'toxins',
 			faq('toxins', 'category: Nutrition and feeding', 'No links.')
 		);
 		expect(() => linkFaqs([silentHub, child])).toThrow(/does not link to its child "grapes"/);
 	});
 
-	it('rejects a link to a question that does not exist', () => {
-		const broken = parseFaq(
+	it('rejects a link to a question that does not exist', async () => {
+		const broken = await parseFaq(
 			'toxins',
-			faq('toxins', 'category: Nutrition and feeding', '[x](/faq/nope)')
+			faq('toxins', 'category: Nutrition and feeding', '[x](nope.md)')
 		);
 		expect(() => linkFaqs([broken])).toThrow(/links to missing question\(s\): nope/);
 	});
 });
 
 describe('content', () => {
-	it('loads every FAQ in content/faq', () => {
+	it('loads every FAQ in src/content/faq', () => {
 		expect(allFaqs().length).toBeGreaterThan(0);
 	});
 

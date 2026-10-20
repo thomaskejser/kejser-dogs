@@ -11,7 +11,20 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
-			adapter: adapter()
+			adapter: adapter(),
+			prerender: {
+				handleHttpError: ({ status, path, referrer, referenceType }) => {
+					throw new Error(`${status} ${path} (${referenceType} from ${referrer ?? 'entries'})`);
+				},
+				handleMissingId: ({ path, id, referrers }) => {
+					throw new Error(
+						`${path}#${id} has no element with that id (linked from ${referrers.join(', ')})`
+					);
+				},
+				handleUnseenRoutes: ({ routes }) => {
+					throw new Error(`routes never prerendered:\n${routes.join('\n')}`);
+				}
+			}
 		})
 	],
 	server: { port: 5317, strictPort: true },

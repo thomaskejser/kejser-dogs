@@ -2,32 +2,42 @@ import { describe, expect, it } from 'vitest';
 import { allPages, findPage, parsePage } from './pages';
 
 const valid = `---
-title: Sources
 description: Where the answers come from.
 ---
+
+# Sources
 
 See [the journal](https://example.org).
 `;
 
 describe('parsePage', () => {
-	it('parses front matter and renders the body to HTML', () => {
-		const page = parsePage('sources', valid);
+	it('takes the title from the # heading and renders the rest to HTML', async () => {
+		const page = await parsePage('sources', valid);
 		expect(page).toMatchObject({
 			slug: 'sources',
 			title: 'Sources',
 			description: 'Where the answers come from.'
 		});
 		expect(page.html).toContain('<a href="https://example.org">the journal</a>');
+		expect(page.html).not.toContain('<h1');
 	});
 
-	it('rejects a missing description', () => {
+	it('rejects a missing description', async () => {
 		const source = valid.replace('description: Where the answers come from.\n', '');
-		expect(() => parsePage('sources', source)).toThrow(/Page "sources": .*"description"/);
+		await expect(parsePage('sources', source)).rejects.toThrow(/Page "sources": .*"description"/);
 	});
 
-	it('rejects FAQ fields on a page', () => {
-		const source = valid.replace('title: Sources', 'title: Sources\ncategory: Health');
-		expect(() => parsePage('sources', source)).toThrow(/unknown front matter field\(s\): category/);
+	it('rejects a title in front matter', async () => {
+		const source = valid.replace('description:', 'title: Sources\ndescription:');
+		await expect(parsePage('sources', source)).rejects.toThrow(
+			/unknown front matter field\(s\): title/
+		);
+	});
+
+	it('rejects a page without a # heading', async () => {
+		await expect(parsePage('sources', valid.replace('# Sources\n', ''))).rejects.toThrow(
+			/has 0 # headings/
+		);
 	});
 });
 

@@ -6,18 +6,17 @@ The front page lists every question by category; each question has its own URL a
 ## Stack
 
 - SvelteKit with `@sveltejs/adapter-static`; every page is prerendered to HTML in `build/`.
-- Answers are Markdown files rendered with `marked` at build time.
+- Answers are Markdown files in `src/content/`, rendered at build time by `src/lib/server/markdown.ts` from the `kejser-web:svelte-static` skill.
 - Styling comes from the global stylesheets in `src/lib/styles/` (see its README).
 
 ## Adding a question
 
-- Create `content/faq/<slug>.md`.
+- Create `src/content/faq/<slug>.md`.
   The file name is the URL slug and must be lowercase kebab-case.
-- Start the file with front matter, then write the answer in Markdown:
+- Start the file with front matter, then the question as the file's one `#` heading, then the answer in Markdown:
 
   ```markdown
   ---
-  question: Can dogs eat grapes?
   summary: No. Grapes and raisins can cause kidney failure in dogs.
   category: Nutrition and feeding
   references:
@@ -29,14 +28,17 @@ The front page lists every question by category; each question has its own URL a
       openAccess: true
   ---
 
+  # Can dogs eat grapes?
+
   The answer, in Markdown.
   ```
 
-- `question`, `summary` and `references` are required, plus either `category` or `parent`; any other field fails the build.
+- The `#` heading is the question; a file with no `#` heading, or more than one, fails the build.
+- `summary` and `references` are required, plus either `category` or `parent`; any other field fails the build.
 - `parent` names the slug of another question, such as `which-substances-are-toxic-to-dogs`.
   The page takes its parent's category, appears under it in the breadcrumb, and is left off the front page.
   The parent must link to each of its children, and a parent cannot have a parent itself.
-- Links between questions are written `/faq/<slug>`; a link to a question that doesn't exist fails the build.
+- Links between questions are relative `.md` paths, such as `[chocolate](is-chocolate-toxic.md)`, and `../pages/about.md` for a page; a link to a question that doesn't exist fails the build.
 - The `summary` is shown in a **Short Answer** box at the top of the page.
 - Every answer cites at least one peer-reviewed paper; the page shows them under **References**, linked through `https://doi.org/`.
 - Each reference needs all six fields.
@@ -49,8 +51,9 @@ The front page lists every question by category; each question has its own URL a
 
 ## Other pages
 
-- Each file in `content/pages/` becomes a page at `/<slug>`, such as `/sources`.
-- Its front matter has `title` and `description`.
+- Each file in `src/content/pages/` becomes a page at `/<slug>`, such as `/sources`.
+- Its title is its one `#` heading, and its front matter has only `description`.
+- Images live in `static/img/<collection>/<slug>/` and are linked by site path, such as `/img/pages/about/whisky.webp`.
 
 ## Commands
 

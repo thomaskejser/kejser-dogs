@@ -14,5 +14,5 @@
 	<PageHeader title={data.page.title}>
 		{#snippet lead()}{data.page.description}{/snippet}
 	</PageHeader>
-	<Prose html={data.page.html} />
+	<Prose as="div" html={data.page.html} />
 </article>

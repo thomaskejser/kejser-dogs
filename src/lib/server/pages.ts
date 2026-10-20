@@ -1,4 +1,5 @@
-import { parseMarkdown, slugFromPath } from './markdown.ts';
+import { renderMarkdown } from './markdown.ts';
+import { checkFrontMatter, requireText, slugFromPath } from './collection.ts';
 
 export type Page = {
 	slug: string;
@@ -7,20 +8,25 @@ export type Page = {
 	html: string;
 };
 
-const sources = import.meta.glob<string>('/content/pages/*.md', {
+const sources = import.meta.glob<string>('/src/content/pages/*.md', {
 	query: '?raw',
 	import: 'default',
 	eager: true
 });
 
-export function parsePage(slug: string, source: string): Page {
-	const { fields, html } = parseMarkdown('Page', slug, source, ['title', 'description'] as const);
-	return { slug, ...fields, html };
+export async function parsePage(slug: string, source: string): Promise<Page> {
+	const { frontMatter, title, html } = await renderMarkdown(`pages/${slug}`, source, {
+		stripTitle: true
+	});
+	const where = `Page "${slug}"`;
+	checkFrontMatter(frontMatter, ['description'], where);
+	return { slug, title, description: requireText(frontMatter, 'description', where), html };
 }
 
-const pages: Page[] = Object.entries(sources).map(([path, source]) =>
-	parsePage(slugFromPath(path), source)
-);
+const pages: Page[] = [];
+for (const [path, source] of Object.entries(sources)) {
+	pages.push(await parsePage(slugFromPath(path), source));
+}
 
 export function allPages(): Page[] {
 	return pages;

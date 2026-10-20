@@ -1,5 +1,6 @@
 import { categories, type Category, type Faq, type FaqCategory } from '#lib/faq.ts';
-import { parseMarkdown, slugFromPath } from './markdown.ts';
+import { checkFrontMatter, requireText, slugFromPath } from './collection.ts';
+import { renderMarkdown } from './markdown.ts';
 import { parseReferences } from './references.ts';
 
 export type FaqSource = Omit<Faq, 'category' | 'parent'> & {
@@ -7,7 +8,7 @@ export type FaqSource = Omit<Faq, 'category' | 'parent'> & {
 	parentSlug: string | undefined;
 };
 
-const sources = import.meta.glob<string>('/content/faq/*.md', {
+const sources = import.meta.glob<string>('/src/content/faq/*.md', {
 	query: '?raw',
 	import: 'default',
 	eager: true
@@ -23,15 +24,14 @@ function parseCategory(value: unknown, slug: string): Category {
 	return category;
 }
 
-export function parseFaq(slug: string, source: string): FaqSource {
-	const { fields, structured, html } = parseMarkdown(
-		'FAQ',
-		slug,
-		source,
-		['question', 'summary'] as const,
-		['category', 'parent', 'references'] as const
-	);
-	const { category, parent } = structured;
+export async function parseFaq(slug: string, source: string): Promise<FaqSource> {
+	const { frontMatter, title, html } = await renderMarkdown(`faq/${slug}`, source, {
+		stripTitle: true
+	});
+	const where = `FAQ "${slug}"`;
+	checkFrontMatter(frontMatter, ['summary', 'category', 'parent', 'references'], where);
+	const summary = requireText(frontMatter, 'summary', where);
+	const { category, parent } = frontMatter;
 	if (category !== undefined && parent !== undefined) {
 		throw new Error(`FAQ "${slug}": set either a category or a parent, not both`);
 	}
@@ -43,11 +43,12 @@ export function parseFaq(slug: string, source: string): FaqSource {
 	}
 	return {
 		slug,
-		...fields,
+		question: title,
+		summary,
 		category: category === undefined ? undefined : parseCategory(category, slug),
-		parentSlug: parent?.trim(),
+		parentSlug: typeof parent === 'string' ? parent.trim() : undefined,
 		html,
-		references: parseReferences(structured.references, `FAQ "${slug}"`)
+		references: parseReferences(frontMatter.references, where)
 	};
 }
 
@@ -95,9 +96,11 @@ export function linkFaqs(sources: FaqSource[]): Faq[] {
 	return faqs.sort((a, b) => a.question.localeCompare(b.question));
 }
 
-const faqs: Faq[] = linkFaqs(
-	Object.entries(sources).map(([path, source]) => parseFaq(slugFromPath(path), source))
-);
+const parsed: FaqSource[] = [];
+for (const [path, source] of Object.entries(sources)) {
+	parsed.push(await parseFaq(slugFromPath(path), source));
+}
+const faqs: Faq[] = linkFaqs(parsed);
 
 export function allFaqs(): Faq[] {
 	return faqs;

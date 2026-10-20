@@ -32,6 +32,6 @@
 	/>
 	<PageHeader title={data.faq.question} />
 	<ShortAnswer>{data.faq.summary}</ShortAnswer>
-	<Prose html={data.faq.html} />
+	<Prose as="div" html={data.faq.html} />
 	<ReferenceList references={data.faq.references} />
 </article>
