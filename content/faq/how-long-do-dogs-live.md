@@ -39,6 +39,12 @@ references:
     journal: Canine Medicine and Genetics
     doi: 10.1186/s40575-020-00086-8
     openAccess: true
+  - authors: Tønnessen R. et al.
+    year: 2012
+    title: 'Canine perinatal mortality: a cohort study of 224 breeds'
+    journal: Theriogenology
+    doi: 10.1016/j.theriogenology.2011.12.023
+    openAccess: false
 ---
 
 Most pet dogs live about 12 years.
@@ -80,8 +86,8 @@ Most of that spread comes from how each study was done, not from real difference
   The highest median in the literature, [15.4 years](https://doi.org/10.2460/javma.24.01.0068), comes from a study of all dogs that happened to visit [three US clinics](https://doi.org/10.1186/s40575-020-00086-8) during one year.
   The authors do not discuss this, but every dog in that study had already survived long enough to be seen that year, and I think that is likely part of why the figure is so high.
 - **Puppy deaths.**
-  Puppies that die in their first weeks are easy to miss.
-  I could not find an independent study whose funding I could check that measured how many die before they first see a vet.
+  Many puppies die before they are ever registered with a vet.
+  In Norwegian Kennel Club litters, [4.3% of puppies](https://doi.org/10.1016/j.theriogenology.2011.12.023) were stillborn, 3.7% died in their first week and another 1% by 8 weeks of age (see [how many puppies are in a litter?](/faq/how-many-puppies-are-in-a-litter)).
   Whether a study counts from birth or from age 1 can change its figure, and an old study of Tokyo pet cemeteries found a lower life expectancy at birth (8.3 years) than at age 1 (8.6 years), [probably because](https://doi.org/10.1292/jvms.17-0384) owners at the time seldom buried young dogs there.
 - **Euthanasia.**
   In a UK survey of owners of pedigree dogs, [80% of deaths](https://doi.org/10.1186/s40575-018-0066-8) involved euthanasia.
