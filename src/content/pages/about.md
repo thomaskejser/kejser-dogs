@@ -58,5 +58,6 @@ Every answer on this site is backed by research, and every study I cite meets th
   - I check that each link leads to the right paper before adding it.
   - Every claim and number on the site is checked against the study's own abstract or full text.
 - **Honest about gaps.** Where no study answers a question, I say so instead of filling the gap with opinion.
+- **Unreadable funding means left out.** If I cannot read who paid for a study, I don't cite it; those papers are listed on [papers I am looking for](papers-i-am-looking-for.md).
 
 Studies marked **Open access** in the reference lists are free for anyone to read.

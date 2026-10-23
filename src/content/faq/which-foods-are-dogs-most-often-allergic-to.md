@@ -214,6 +214,7 @@ In particular, I could not read the funding statement of:
 - Jackson H. A. et al. (2003), "Evaluation of the clinical and allergen specific serum immunoglobulin E responses to oral challenge with cornstarch, corn, soy and a soy hydrolysate diet in dogs with spontaneous food allergy", _Veterinary Dermatology_ 14:181–187, [doi:10.1046/j.1365-3164.2003.00338.x](https://doi.org/10.1046/j.1365-3164.2003.00338.x).
 
 If its funding is independent, I will add it here.
+The other papers I am missing are listed on [papers I am looking for](../pages/papers-i-am-looking-for.md).
 
 ## Special diets are often contaminated
 
