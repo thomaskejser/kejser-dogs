@@ -98,3 +98,16 @@ For [how long do dogs remember a person?](../faq/how-long-do-dogs-remember-a-per
 | Paper                                                                                                         | What I need                                                                       |
 | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | [Gillis 1999](https://doi.org/10.1007/978-1-4615-4733-4_26), in _Advances in Chemical Signals in Vertebrates_ | Funding: dogs that recognised their mother's and carer's scent after months apart |
+
+## Digging before rest
+
+For [why do dogs make digging motions before they sleep or rest?](../faq/why-do-dogs-dig-before-they-sleep.md)
+
+| Paper                                                                                            | What I need                                                   |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| [Root Kustritz 2005](https://doi.org/10.1016/j.theriogenology.2005.05.022), _Theriogenology_     | Full text: nesting before giving birth and in false pregnancy |
+| [Pal 2005](https://doi.org/10.1016/j.applanim.2004.08.002), _Applied Animal Behaviour Science_   | Full text: den digging by free-ranging mothers                |
+| [Lord et al. 2013](https://doi.org/10.1016/j.beproc.2012.10.009), _Behavioural Processes_        | Full text: denning and breeding in dogs and wild canids       |
+| [Kleiman 1968](https://doi.org/10.1111/j.1748-1090.1968.tb00419.x), _International Zoo Yearbook_ | Full text: denning across the dog family                      |
+| [Meyer & Tsukise 1995](<https://doi.org/10.1016/s0940-9602(11)80129-9>), _Annals of Anatomy_     | Full text: glands in the paw pads of wolves and dogs          |
+| [Bekoff 1979](https://doi.org/10.2307/1380206), _Journal of Mammalogy_                           | Full text: ground scratching as a signal                      |
