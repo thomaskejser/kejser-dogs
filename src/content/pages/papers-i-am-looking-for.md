@@ -111,3 +111,17 @@ For [why do dogs make digging motions before they sleep or rest?](../faq/why-do-
 | [Kleiman 1968](https://doi.org/10.1111/j.1748-1090.1968.tb00419.x), _International Zoo Yearbook_ | Full text: denning across the dog family                      |
 | [Meyer & Tsukise 1995](<https://doi.org/10.1016/s0940-9602(11)80129-9>), _Annals of Anatomy_     | Full text: glands in the paw pads of wolves and dogs          |
 | [Bekoff 1979](https://doi.org/10.2307/1380206), _Journal of Mammalogy_                           | Full text: ground scratching as a signal                      |
+
+## Vision
+
+For [how does dog vision work?](../faq/how-does-dog-vision-work.md)
+
+| Paper                                                                                                      | What I need                                                           |
+| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [Coile et al. 1989](<https://doi.org/10.1016/0031-9384(89)90092-9>), _Physiology & Behavior_               | Full text: how fast a light must flicker before dogs see it as steady |
+| [Jacobs et al. 1993](https://doi.org/10.1017/S0952523800003291), _Visual Neuroscience_                     | Full text: colour pigments in dogs' and foxes' eyes                   |
+| [Odom et al. 1983](https://doi.org/10.1152/ajpregu.1983.245.5.R637), _American Journal of Physiology_      | Full text: sharpness of vision from brain responses                   |
+| [McGreevy et al. 2003](https://doi.org/10.1159/000073756), _Brain, Behavior and Evolution_                 | Full text: nose length and the layout of the retina                   |
+| [Peichl 1992](https://doi.org/10.1002/cne.903240412), _Journal of Comparative Neurology_                   | Full text: the layout of the retina in dogs and wolves                |
+| [Ollivier et al. 2004](https://doi.org/10.1111/j.1463-5224.2004.00318.x), _Veterinary Ophthalmology_       | Full text: the reflective layer behind the retina                     |
+| [Byosiere et al. 2019](https://doi.org/10.1016/j.applanim.2019.01.004), _Applied Animal Behaviour Science_ | Full text: brightness as a hidden cue in dogs' colour tests           |
