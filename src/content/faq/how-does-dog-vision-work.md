@@ -143,7 +143,35 @@ Dogs have two.
 - The same study found that blue-green light looked grey to the dogs, and that they were poor at telling apart colours from green to red.
 
 So a dog probably sees the world in shades of blue and yellow.
-A red ball on green grass is hard for a dog to pick out by colour; a blue or yellow one is easier.
+
+### Which colours stand out to a dog?
+
+Based on those experiments, a [1995 review](https://doi.org/10.2460/javma.1995.207.12.1623) splits the colours we see into three groups for a dog:
+
+- **Violet and blue** probably look blue.
+- **Green, yellow-green, yellow, orange and red** probably all look like shades of one colour, roughly yellow, differing mainly in how bright and how strong they look.
+  Dogs are least sensitive to red, so red probably looks dark.
+- **Blue-green (turquoise)** probably looks grey or white, with no colour at all.
+
+The strongest colours for a dog are at the two ends, blue and yellow; the colours in between look washed out.
+
+That lets you predict which pairs are easy and which are hard.
+These are predictions from the colour experiments, not things anyone has tested pair by pair:
+
+| Probably hard to tell apart by colour | Probably easy to tell apart by colour |
+| ------------------------------------- | ------------------------------------- |
+| Red and green                         | Blue and yellow                       |
+| Red, orange and yellow                | Blue and green                        |
+| A red or orange toy on green grass    | A blue toy on green grass             |
+| A yellow toy on green grass           | A blue or yellow toy on grey concrete |
+| Turquoise and grey or white           | Blue and red                          |
+| Red and dark brown or black           | Yellow and turquoise                  |
+
+Where two colours look alike to a dog, it can still tell them apart if one is much brighter, but it can't go by colour alone.
+The review points out, for example, that a guide dog cannot read a traffic light by colour, and that training a dog to pick out a red object from a green one by colour is likely to fail.
+
+If you want a toy your dog can spot on a lawn, blue is the best choice.
+Orange, red and also yellow are all on the dog's "yellow" side, the same as the grass, and stand out only by brightness.
 
 **Dogs do use colour, not just brightness.**
 
@@ -252,7 +280,7 @@ The surveys rely on what owners report.
 ## What I take from this
 
 - **Colour:** dogs see blues and yellows; reds and greens run together.
-  For toys you want your dog to spot on grass, blue or yellow is a better bet than red.
+  For toys you want your dog to spot on grass, blue is the best bet.
 - **Detail:** dogs see far less detail than we do, and individual dogs vary a lot.
 - **Dim light:** dogs probably notice faint light better than us, but don't see detail better in the dark.
 - **Movement:** dogs are not better than people at spotting movement in the studies we have.
