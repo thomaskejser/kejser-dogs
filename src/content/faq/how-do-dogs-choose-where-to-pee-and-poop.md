@@ -44,12 +44,6 @@ references:
     journal: Applied Animal Behaviour Science
     doi: 10.1016/j.applanim.2010.03.007
     openAccess: false
-  - authors: da Fonseca A. D. et al.
-    year: 2026
-    title: Evaluating Dog Preference Between Artificial and Natural Turf Grasses
-    journal: Animals
-    doi: 10.3390/ani16132090
-    openAccess: true
   - authors: Fugazza C., Pogány Á. & Miklósi Á.
     year: 2016
     title: Recall of others' actions after incidental encoding reveals episodic-like memory in dogs
@@ -153,10 +147,7 @@ So the most likely answer is that dogs use smell, memory of places and plain hab
 
 ## Grass, pavement or posts?
 
-- **Grass.** In a small American study, dogs peed and pooped almost only on real grass; [fewer than 10% of pees](https://doi.org/10.3390/ani16132090) were on artificial turf.
-- **Upright objects.** Marks are often aimed at posts, trees and walls, where other dogs will sniff them, but I found no study that measured this in pet dogs.
-
-I found no study of how puppies come to prefer grass, pads or particular places.
+Dogs probably prefer grass and soil to hard surfaces, and urine collects at the foot of trees and posts; see [do dogs prefer to pee and poop on some surfaces over others?](do-dogs-prefer-some-surfaces-to-pee-and-poop-on.md)
 
 ## Do dogs line up north–south to poop?
 
@@ -178,6 +169,7 @@ I found no study of circling.
 
 ## Related questions
 
+- [Do dogs prefer to pee and poop on some surfaces over others?](do-dogs-prefer-some-surfaces-to-pee-and-poop-on.md)
 - [How long can a dog remember things?](how-long-is-a-dogs-memory.md)
 - [Do dogs remember past events, or do they live in the moment?](do-dogs-remember-past-events.md)
 - [How can I tell if my dog is unwell?](how-can-i-tell-if-my-dog-is-unwell.md)

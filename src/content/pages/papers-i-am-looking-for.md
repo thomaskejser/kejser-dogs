@@ -91,6 +91,16 @@ For [how do dogs choose where to pee and poop?](../faq/how-do-dogs-choose-where-
 | [Gagnon & Doré 1992](https://doi.org/10.1037/0735-7036.106.1.58), _Journal of Comparative Psychology_                | Funding: finding hidden objects without smell              |
 | [Macpherson & Roberts 2010](https://doi.org/10.1037/a0018084), _Journal of Comparative Psychology_                   | Funding: dogs' spatial memory in a maze                    |
 
+## Toilet surfaces
+
+For [do dogs prefer to pee and poop on some surfaces over others?](../faq/do-dogs-prefer-some-surfaces-to-pee-and-poop-on.md)
+
+| Paper                                                                                                  | What I need                                                                                                    |
+| ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| [Buckley & Whalley 2019](https://doi.org/10.1016/j.jveb.2019.08.005), _Journal of Veterinary Behavior_ | Funding, and whether the synthetic grass was donated: synthetic grass against concrete in hospital toilet pens |
+| [Milkovic et al. 2009](https://doi.org/10.1111/j.1475-4762.2008.00865.x), _Area_                       | Funding: droppings on grass, soil and tiles in Buenos Aires suburbs                                            |
+| [Rubel & Wisnivesky 2005](https://doi.org/10.1016/j.vetpar.2005.06.002), _Veterinary Parasitology_     | Funding: droppings on grass, bare soil, tiles and sand                                                         |
+
 ## Memory
 
 For [how long do dogs remember a person?](../faq/how-long-do-dogs-remember-a-person.md)
@@ -125,3 +135,16 @@ For [how does dog vision work?](../faq/how-does-dog-vision-work.md)
 | [Peichl 1992](https://doi.org/10.1002/cne.903240412), _Journal of Comparative Neurology_                   | Full text: the layout of the retina in dogs and wolves                |
 | [Ollivier et al. 2004](https://doi.org/10.1111/j.1463-5224.2004.00318.x), _Veterinary Ophthalmology_       | Full text: the reflective layer behind the retina                     |
 | [Byosiere et al. 2019](https://doi.org/10.1016/j.applanim.2019.01.004), _Applied Animal Behaviour Science_ | Full text: brightness as a hidden cue in dogs' colour tests           |
+
+## Body size
+
+For [do dogs know how tall they are?](../faq/do-dogs-know-how-tall-they-are.md)
+
+| Paper                                                                                                    | What I need                                                             |
+| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [Bálint et al. 2013](https://doi.org/10.1016/j.applanim.2013.07.013), _Applied Animal Behaviour Science_ | Funding: play growls make a dog sound bigger than it is                 |
+| [Bauer & Smuts 2007](https://doi.org/10.1016/j.anbehav.2006.09.006), _Animal Behaviour_                  | Full text: holding back in play between dogs of different size and rank |
+| [Ward et al. 2008](https://doi.org/10.1016/j.anbehav.2008.06.004), _Animal Behaviour_                    | Full text: play between littermates                                     |
+| [Řezáč et al. 2011](https://doi.org/10.1016/j.applanim.2011.08.006), _Applied Animal Behaviour Science_  | Full text: how dogs of different sizes meet on walks                    |
+
+The leg-raising study by [McGuire et al. 2018](https://doi.org/10.1111/jzo.12603) is listed under toileting above.
