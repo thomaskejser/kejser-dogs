@@ -1,6 +1,6 @@
 ---
 summary: 'Yes, on average: small breeds live about a year longer than large breeds, and several giant mastiff-type breeds have median lifespans under 10 years. Big breeds age faster rather than starting to age earlier. Flat-faced small breeds, such as the French bulldog, are the main exception.'
-category: Breeds
+category: Aging
 references:
   - authors: O'Neill D. G. et al.
     year: 2013

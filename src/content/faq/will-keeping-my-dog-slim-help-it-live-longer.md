@@ -1,6 +1,6 @@
 ---
 summary: 'No independent study has answered this. The studies that link a slim body with a longer life were paid for, or partly written, by pet food companies, so I leave them out. Independent studies do tie extra weight to arthritis, and in a small trial weight loss eased lameness in obese, arthritic dogs, but whether a slim dog lives longer is unproven.'
-category: Nutrition and feeding
+category: Aging
 references:
   - authors: O'Brien J. et al.
     year: 2025

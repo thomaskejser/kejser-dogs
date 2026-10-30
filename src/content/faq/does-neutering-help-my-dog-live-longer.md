@@ -1,6 +1,6 @@
 ---
 summary: 'Probably a little for females: in a large US study, spayed females that had reached 5 still lived about a year longer than intact ones, though part of any gap comes from bias. For males the benefit is small or absent, and in Rottweilers neutering before one year is linked to a shorter life.'
-category: Care
+category: Aging
 references:
   - authors: O'Brien J. et al.
     year: 2025
