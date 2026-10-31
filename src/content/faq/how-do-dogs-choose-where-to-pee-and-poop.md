@@ -14,6 +14,12 @@ references:
     journal: Animals
     doi: 10.3390/ani10040632
     openAccess: true
+  - authors: Wirant S. C. & McGuire B.
+    year: 2004
+    title: 'Urinary behavior of female domestic dogs (Canis familiaris): influence of reproductive status, location, and age'
+    journal: Applied Animal Behaviour Science
+    doi: 10.1016/j.applanim.2003.09.012
+    openAccess: false
   - authors: Bekoff M.
     year: 2001
     title: 'Observations of scent-marking and discriminating self from others by a domestic dog (Canis familiaris): tales of displaced yellow snow'
@@ -32,6 +38,12 @@ references:
     journal: Animal Behaviour
     doi: 10.1016/j.anbehav.2008.12.033
     openAccess: false
+  - authors: Cafazzo S., Natoli E. & Valsecchi P.
+    year: 2012
+    title: Scent-Marking Behaviour in a Pack of Free-Ranging Domestic Dogs
+    journal: Ethology
+    doi: 10.1111/j.1439-0310.2012.02088.x
+    openAccess: false
   - authors: Biswas S. et al.
     year: 2024
     title: 'What is in a scent? Understanding the role of scent marking in social dynamics and territoriality of free-ranging dogs'
@@ -49,6 +61,12 @@ references:
     title: Dog behaviour on walks and the effect of use of the leash
     journal: Applied Animal Behaviour Science
     doi: 10.1016/j.applanim.2010.03.007
+    openAccess: false
+  - authors: Gagnon S. & Doré F. Y.
+    year: 1992
+    title: 'Search behavior in various breeds of adult dogs (Canis familiaris): Object permanence and olfactory cues'
+    journal: Journal of Comparative Psychology
+    doi: 10.1037/0735-7036.106.1.58
     openAccess: false
   - authors: Fugazza C., Pogány Á. & Miklósi Á.
     year: 2016
@@ -86,6 +104,12 @@ references:
     journal: Frontiers in Zoology
     doi: 10.1186/1742-9994-10-80
     openAccess: true
+  - authors: Benediktová K. et al.
+    year: 2025
+    title: Solitary working hunting dogs show a higher tendency for magnetic alignment, with decreased alignment in older dogs
+    journal: Applied Animal Behaviour Science
+    doi: 10.1016/j.applanim.2025.106575
+    openAccess: true
   - authors: Rouviere A. & Ruxton G. D.
     year: 2022
     title: No evidence for magnetic alignment in domestic dogs in urban parks
@@ -115,6 +139,11 @@ Marking shows up as many small pees on a walk, often against an upright object.
 
 - **Adult males mark the most.** In 113 shelter dogs on 20-minute walks, [adult males peed far more often](https://doi.org/10.3390/ani13233649) than adult females, while young dogs of both sexes peed rarely and about equally.
   That points to marking as something dogs start doing as they mature.
+- **Females mark too.** In 12 female Jack Russell Terriers, more than half of all pees were [aimed at an object](https://doi.org/10.1016/j.applanim.2003.09.012), in spayed and unspayed females alike.
+  They peed more often, and aimed more of their pees, when walked away from home than at home, and older females aimed more than young ones.
+- **Poop is rarely a message.** In a pack of 27 free-ranging dogs near Rome, watched for 280 hours, [only 9 of 89 poops](https://doi.org/10.1111/j.1439-0310.2012.02088.x) looked like marks: they were left on rocks or plants where paths crossed, after sniffing.
+  All nine came from one dog, the pack's top-ranking male; the other 80 poops were scattered with no pattern.
+  In the same pack, males marked more along the edges of the pack's territory and at feeding sites, and dogs of both sexes marked more during squabbles with other dogs.
 - **Who walks the dog matters.** In 100 shelter dogs, males [peed more often with an unfamiliar woman](https://doi.org/10.3390/ani10040632) than with an unfamiliar man, and with a man they more often squatted like a young dog.
   Both sexes were more likely to poop with a woman walking them: about 74% of walks against 44%.
 
@@ -137,6 +166,8 @@ For peeing, smell clearly matters.
 
 Dogs have scent glands in their paws, and the scratching may add scent to the mark.
 Dogs do [sniff other dogs' paw scent longer](https://doi.org/10.1038/s41598-020-74784-5) than plain ground, so paw scent carries information.
+In the free-ranging pack near Rome, males [scratched more along the edges of their territory](https://doi.org/10.1111/j.1439-0310.2012.02088.x) than inside or outside it, which suggests the scratching is part of the message.
+In 12 female Jack Russell Terriers, spayed females [scratched after about half of their poops](https://doi.org/10.1016/j.applanim.2003.09.012) and unspayed females after 6%.
 But no study has shown that scratching after peeing or pooping actually leaves scent where it matters.
 
 ## Do dogs remember where they went, or only smell it?
@@ -148,6 +179,7 @@ Even in the snow study above, the urine was moved to where the dog would meet it
 What is known suggests dogs could use both:
 
 - **Dogs remember places.** Dogs and wolves that [watched food being hidden](https://doi.org/10.1371/journal.pone.0290547) found more of it than when they had not watched, and the authors conclude they did not simply rely on scent.
+- **Dogs find hidden things by sight, not only by smell.** Ten dogs looked for a toy hidden behind one of four screens, and [masking its smell with rose water and decoy toys made no difference](https://doi.org/10.1037/0735-7036.106.1.58) to how well they found it.
 - **Dogs remember what they did.** Dogs could [recall a person's actions](https://doi.org/10.1016/j.cub.2016.09.057) after an hour, and [repeat their own earlier actions](https://doi.org/10.1038/s41598-020-67302-0) after up to an hour.
 - **Dogs use both smell and memory to find their way.** Hunting dogs fitted with GPS collars [followed their own scent trail](https://doi.org/10.7554/eLife.55080) back to their owner on 59% of returns, and took a new route on 33%.
 - **Wolves choose visible spots.** An experiment with wild wolves suggests that leaving droppings [where they are easy to see](https://doi.org/10.1002/jez.70080) matters more to wolves than making the smell last; that is wolves, not dogs.
@@ -164,6 +196,9 @@ Probably not in any way you would notice.
 
 - A 2013 Czech study of 70 dogs reported that dogs [lined up north–south](https://doi.org/10.1186/1742-9994-10-80) when pooping and peeing, but only when the Earth's magnetic field was calm.
   The authors came up with the "calm field" idea after collecting the data, and one dog contributed a large share of the key observations.
+- The same Czech group later analysed 4,986 observations of dogs peeing and pooping and [found no consistent north–south alignment across all dogs](https://doi.org/10.1016/j.applanim.2025.106575).
+  Hunting breeds that work out of their owner's sight leaned most towards north–south, older dogs less so.
+  Dogs also lined up a little more often when pooping than when peeing.
 - An independent study of 52 dogs in parks in Lyon found [no north–south alignment](https://doi.org/10.1016/j.jveb.2021.11.005); the dogs lined up with the layout of each park instead.
 
 ## Why do dogs circle before pooping?

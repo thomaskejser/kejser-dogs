@@ -8,6 +8,12 @@ references:
     journal: Animals
     doi: 10.3390/ani16132090
     openAccess: true
+  - authors: Buckley L. A. & Whalley C.
+    year: 2019
+    title: The use of synthetic grass as a novel substrate within veterinary practice canine inpatient elimination enclosures
+    journal: Journal of Veterinary Behavior
+    doi: 10.1016/j.jveb.2019.08.005
+    openAccess: false
   - authors: Rubel D. et al.
     year: 2019
     title: "Factors affecting canine fecal and parasitic contamination of public green spaces of Buenos Aires city, Argentina, and visitors' perception of such contamination"
@@ -32,7 +38,7 @@ references:
 
 Probably, but the evidence is thin.
 Dogs given the choice went on real grass rather than artificial turf, droppings in cities pile up on soil rather than paving, and urine collects at the foot of trees and posts.
-But only one small study has let dogs choose, and nobody has offered dogs grass and asphalt side by side.
+But only one small study has let dogs choose, nobody has offered dogs grass and asphalt side by side, and in a hospital most dogs peed as readily on concrete as on artificial turf.
 
 A few older studies that would help are behind paywalls, and I could not read who funded them; they are listed on [papers I am looking for](../pages/papers-i-am-looking-for.md).
 
@@ -44,6 +50,16 @@ The only choice test I found is small.
   They [peed and pooped almost only on natural grass](https://doi.org/10.3390/ani16132090); fewer than 10% of pees were on artificial turf.
 - The dogs went too rarely for statistics, so the result is a description, not a test.
 - The authors suggest the artificial turf was hotter and harder underfoot, but they did not test why the dogs avoided it.
+
+## Artificial turf or concrete?
+
+Here the surface seemed to make no difference.
+
+- At the RSPCA's animal hospital in Salford, near Manchester, 192 dogs were let into a toilet pen floored with either concrete or artificial turf, which was switched day by day.
+- About three-quarters [peed on their first visit on either surface](https://doi.org/10.1016/j.jveb.2019.08.005) (77% on turf, 74% on concrete), and about one in five pooped at least once (19% on each).
+- The surface did not change how soon dogs went or how they stood; males peed more often (1.7 against 1.1 times in five minutes), and females peed for longer (8 against 5 seconds).
+- Each dog only saw one surface, so this tested whether dogs would go, not which surface they preferred.
+  The authors note that neither may have been what the dogs wanted; real grass, the likely favourite, was not offered.
 
 ## Grass, earth or paving?
 
@@ -84,7 +100,7 @@ The turf study's suggestion that heat put dogs off artificial turf is the neares
 
 ## What this means
 
-- **Grass or soil is the safe bet.** If you want your dog to go in one place, a patch of real grass or earth is more likely to work than paving or artificial turf, though that rests on very little.
+- **Grass or soil is the safe bet.** If you want your dog to go in one place, a patch of real grass or earth is more likely to work than paving or artificial turf, though that rests on very little; most dogs will go on concrete when they need to.
 - **Expect trees and posts to be used.** In cities, that is where the urine collects, and dogs often pee over other dogs' marks; see [how do dogs choose where to pee and poop?](how-do-dogs-choose-where-to-pee-and-poop.md)
 - **Keep the toilet away from the bed.** Even in a small kennel, most dogs went as far from their bed and food as they could.
 

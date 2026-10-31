@@ -26,6 +26,18 @@ references:
     journal: Proceedings of the Royal Society B
     doi: 10.1098/rspb.2013.1356
     openAccess: true
+  - authors: Jacobs G. H. et al.
+    year: 1993
+    title: Photopigments of dogs and foxes and their implications for canid vision
+    journal: Visual Neuroscience
+    doi: 10.1017/S0952523800003291
+    openAccess: false
+  - authors: Byosiere S.-E. et al.
+    year: 2019
+    title: 'The effects of physical luminance on colour discrimination in dogs: A cautionary tale'
+    journal: Applied Animal Behaviour Science
+    doi: 10.1016/j.applanim.2019.01.004
+    openAccess: false
   - authors: Siniscalchi M. et al.
     year: 2017
     title: Are dogs red–green colour blind?
@@ -141,6 +153,7 @@ Dogs have two.
   Their eyes turned out to have one cone type most sensitive to violet-blue and one most sensitive to yellow-green.
   Their colour vision was very like that of a person with the commonest form of red–green colour blindness.
 - The same study found that blue-green light looked grey to the dogs, and that they were poor at telling apart colours from green to red.
+- Measuring the eye's electrical response in three dogs later [confirmed the two cone types](https://doi.org/10.1017/S0952523800003291), and found the same pair in three kinds of fox.
 
 So a dog probably sees the world in shades of blue and yellow.
 
@@ -150,6 +163,7 @@ Based on those experiments, a [1995 review](https://doi.org/10.2460/javma.1995.2
 
 - **Violet and blue** probably look blue.
 - **Green, yellow-green, yellow, orange and red** probably all look like shades of one colour, roughly yellow, differing mainly in how bright and how strong they look.
+  A [1993 study of dog and fox eyes](https://doi.org/10.1017/S0952523800003291) puts browns in the same group, so anything bluish should stand out from browns, reds, yellows and greens.
   Dogs are least sensitive to red, so red probably looks dark.
 - **Blue-green (turquoise)** probably looks grey or white, with no colour at all.
 
@@ -181,6 +195,11 @@ Orange, red and also yellow are all on the dog's "yellow" side, the same as the 
   They looked at the cat that a colour-blind person can see, and looked much less at the one that only people with full colour vision can see.
 - In India, [134 free-ranging dogs](https://doi.org/10.1007/s10071-024-01928-9) that had never been trained went for yellow objects more often than blue or grey ones.
   The authors could not control how bright the paints were, so this is a hint rather than proof.
+- **Screens can mislead.** In Australia, [7 related Lagotto Romagnolos](https://doi.org/10.1016/j.applanim.2019.01.004) trained on an old tube monitor told red from green as easily as black from white when the colours were at full strength.
+  With the colours set to equal brightness on a light meter, the dogs still told them apart at one setting, but most struggled with red on green at another.
+  At a third, one dog struggled with blue on yellow.
+  The authors warn that brightness can throw colour tests done on screens.
+  They also ran their colours through a popular "dog vision" photo filter, and found it got wrong what the dogs could actually see.
 
 "Dogs see in black and white" is a myth.
 

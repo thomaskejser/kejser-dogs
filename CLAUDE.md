@@ -63,7 +63,7 @@ Published on the about page under "How I choose sources": peer-reviewed only, no
 
 Not yet ruled:
 
-- **Funder known only from Crossref or OpenAlex records, full text unread** (McGuire 2018, Wirant & McGuire 2004, Yeon 1999, Benediktová 2025, Lisberg & Snowdon 2011).
+- **Funder known only from Crossref or OpenAlex records, full text unread** (Yeon 1999, Lisberg & Snowdon 2011).
   Treated as unreadable, so left out, until Thomas decides.
 - **Della Rocca 2023** (Italian Helsinki pain index): no external funding, but one author consults for CeDIS, possibly linked to a supplement maker.
   Left out.
@@ -109,7 +109,7 @@ Not yet ruled:
 - **Horowitz 2017 dog count:** `how-do-dogs-choose-where-to-pee-and-poop.md` says the "olfactory mirror" test had 32 dogs, but a research agent read 36 in Experiment 1 (12 in Experiment 2).
   Check the paper (DOI 10.1016/j.beproc.2017.08.001) and correct the article; `do-dogs-know-how-tall-they-are.md` gives no number.
 - **Getting the papers on the papers page:** an agent (2026-10-29) found these routes.
-  - Free in Thomas's own Chrome: Benediktová 2025 (CC BY), Buckley & Whalley 2019 (Edinburgh repository), Guilford 1994, Vaden 2000 and Allenspach 2007 (JVIM).
+  - ResearchGate often has author uploads; its search page shows a bot check every few searches, which Thomas ticks.
   - Bekoff 1979 and possibly Sprague & Anisko 1973 can be read with a free JSTOR account.
   - DTU Library's walk-in PCs are open to non-affiliated visitors and may cover the Elsevier and Wiley papers; email them first.
   - Fallback: DeepDyve ($59 a month, no Elsevier), ASAB (£35, Animal Behaviour), ISAE (about £94, Applied Animal Behaviour Science), Elsevier pay-per-view (about $31.50 each).

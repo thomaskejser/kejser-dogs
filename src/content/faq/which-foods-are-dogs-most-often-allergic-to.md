@@ -74,6 +74,12 @@ references:
     journal: Journal of Veterinary Medical Science
     doi: 10.1292/jvms.21-0162
     openAccess: true
+  - authors: Allenspach K. et al.
+    year: 2007
+    title: 'Chronic Enteropathies in Dogs: Evaluation of Risk Factors for Negative Outcome'
+    journal: Journal of Veterinary Internal Medicine
+    doi: 10.1111/j.1939-1676.2007.tb03011.x
+    openAccess: true
   - authors: Olivry T. & Bizikova P.
     year: 2010
     title: A systematic review of the evidence of reduced allergenicity and clinical benefit of food hydrolysates in dogs with cutaneous adverse food reactions
@@ -155,7 +161,12 @@ If the signs go away, the old foods are given back one at a time (a **food chall
 - **Even food challenges overcall.** In the only blinded, placebo-controlled challenge study I found, 12 allergic dogs were given each food in disguise, alongside dummy meals, without the owners or vets knowing which was which.
   [Half of the dogs also "reacted" to a dummy meal](https://doi.org/10.1111/vde.70041), and dummy meals caused reactions about as often as real foods.
   So some foods that owners blame after an open challenge are probably innocent.
-- **Signs usually come back within a day.** In 46 Japanese dogs given their old food back after an elimination diet, [61% were itchy again within 12 hours](https://doi.org/10.1111/vde.12953), and a quarter within 3 to 6 hours; a few took several days, and one took 10.
+- **Getting better on a new diet does not prove an allergy.** In 70 dogs with long-term diarrhoea, some also vomiting, at a Swiss university hospital, 39 improved within 10 days on an elimination diet.
+  After 14 weeks, all 39 went back to their old food, and [31 of them stayed well for up to 3 years](https://doi.org/10.1111/j.1939-1676.2007.tb03011.x).
+  Of the 8 whose signs came back, only 2 clearly reacted when fed beef, lamb, chicken or milk one at a time, with vomiting and bloody stools a day later; the others had only minor signs.
+  The dogs that got better on the diet were younger than those that needed steroids (3.5 against 6.5 years on average) and had milder signs, mostly from the large bowel.
+- **Signs usually come back within a day.** In 46 Japanese dogs given their old food back after an elimination diet, [61% were itchy again within 12 hours](https://doi.org/10.1111/vde.12953), and a quarter within 3 to 6 hours; 7 took 2 to 5 days, and one took 10.
+  The authors advise watching the dog for several days after a challenge, not just the first day.
   The itch showed up most often on the legs (57% of dogs) and the face (26%), and no dog had a severe allergic reaction.
   These dogs got their old food back all at once, so the study shows how fast the signs return, not which food caused them.
 
@@ -221,8 +232,9 @@ Whether these diets are safe for a dog allergic to the original protein has been
 
 - **Almost all the trials were paid for by the diet makers.** An independent review found 11 studies of hydrolysed diets in allergic dogs; [10 were sponsored by Purina, Hill's, Royal Canin or Iams](https://doi.org/10.1111/j.1365-3164.2009.00761.x), and the eleventh named no sponsor.
   I don't cite those trials directly, but the review is worth reading because its conclusion goes against the sponsors.
-- **Less allergenic, not allergen-free.** The review concluded that hydrolysed diets [reduce reactions but don't eliminate them](https://doi.org/10.1111/j.1365-3164.2009.00761.x): in the controlled studies, up to half of the dogs allergic to soy or chicken got worse on a diet made from the hydrolysed version.
+- **Less allergenic, not allergen-free.** The review concluded that hydrolysed diets [reduce reactions but don't eliminate them](https://doi.org/10.1111/j.1365-3164.2009.00761.x): in the controlled studies, between a fifth and half of the dogs allergic to soy, corn or chicken got worse on a diet made from the hydrolysed version.
   The authors suggest these diets are best used for dogs that are not thought to be allergic to the food they are made from.
+  They also warn that a dog that stays itchy on a hydrolysed elimination diet may be wrongly ruled out, when it is really reacting to the diet itself.
 - In one independent study, blood from allergic dogs recognised proteins in [hydrolysed fish (6 of 38 dogs), hydrolysed feather (4 of 38) and hydrolysed soy (1 of 28) diets](https://doi.org/10.1111/vde.12536).
   That shows the fragments are not always invisible, but not that the dogs reacted to them.
 

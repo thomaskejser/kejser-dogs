@@ -56,12 +56,24 @@ references:
     journal: PLOS ONE
     doi: 10.1371/journal.pone.0015175
     openAccess: true
+  - authors: Bálint A. et al.
+    year: 2013
+    title: "'Beware, I am big and non-dangerous!' – Playfully growling dogs are perceived larger than their actual size by their canine audience"
+    journal: Applied Animal Behaviour Science
+    doi: 10.1016/j.applanim.2013.07.013
+    openAccess: false
   - authors: Taylor A. M., Reby D. & McComb K.
     year: 2011
     title: Cross Modal Perception of Body Size in Domestic Dogs (Canis familiaris)
     journal: PLOS ONE
     doi: 10.1371/journal.pone.0017069
     openAccess: true
+  - authors: McGuire B. et al.
+    year: 2018
+    title: 'Urine marking in male domestic dogs: honest or dishonest?'
+    journal: Journal of Zoology
+    doi: 10.1111/jzo.12603
+    openAccess: false
   - authors: McGreevy P. D. et al.
     year: 2013
     title: Dog Behavior Co-Varies with Height, Bodyweight and Skull Shape
@@ -145,7 +157,10 @@ Yes, at least from a growl.
 - **Matching a growl to a picture.** In a Vienna study of 96 dogs, a growl played between pictures of a small and a large dog; [20 of 24 dogs looked first at the dog whose size matched the growl](https://doi.org/10.1371/journal.pone.0015175).
   Dogs shown triangles or cats instead, or played noise instead of a growl, showed no preference.
 - **The same with life-size models.** In a British study, 40 dogs [looked longer at the model of a Jack Russell or a German shepherd](https://doi.org/10.1371/journal.pone.0017069) that matched the growl.
-- In both studies, the listening dog's own size made no difference.
+- **Play growls sound bigger.** In a later Budapest study of 48 dogs, a food-guarding growl made dogs switch their gaze to the matching-size dog: 10 of the 11 that started on the wrong one did so.
+  Dogs that heard a play growl instead [looked longer at the larger dog](https://doi.org/10.1016/j.applanim.2013.07.013), whether or not it matched.
+  The authors suggest dogs exaggerate their size in play, perhaps as part of signalling that it is a game.
+- In the first two studies, the listening dog's own size made no difference.
 
 So dogs can tell how big another dog is, but these studies say nothing about whether a dog compares that with its own size.
 
@@ -159,7 +174,11 @@ Nobody has tested it.
   The authors suggest that the way owners treat small dogs could be part of the reason.
 - In the gap studies, small dogs judged openings as well as large ones, which does not suggest they think they are bigger than they are.
 
-One study suggests small males cock their leg higher for their size when they pee, as if to look bigger to the next dog, but I could not read who funded it; it is on my list of papers I am looking for.
+There is one hint that small dogs try to seem bigger, which is not the same as thinking they are.
+
+- In 45 adult male shelter dogs, [smaller males lifted their leg higher](https://doi.org/10.1111/jzo.12603) when they peed than larger males, though size explained only a small part of the difference.
+- In 15 of the dogs, lifting the leg higher put the urine mark higher, so small males may leave marks higher for their size, as if to seem bigger to the next dog that sniffs them.
+- The authors did not rule out simpler reasons: small dogs may aim higher to pee over other dogs' marks, and heavy dogs may keep their leg lower for balance.
 
 ## Do dogs recognise themselves?
 
