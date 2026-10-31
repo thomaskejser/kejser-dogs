@@ -57,6 +57,8 @@ Published on the about page under "How I choose sources": peer-reviewed only, no
 | Berns 2015 (authors later held equity in Dog Star Technologies, not declared in the paper)                          | Pass                   |
 | Indrebø 2007 (conference talk in a journal supplement)                                                              | Keep                   |
 | Faragó 2010 (Royal Canin pays the Clever Dog Lab's rent, no say in research; topic is growls, not food)             | Pass                   |
+| Hielm-Björkman 2009 (Helsinki chronic pain index; dogs from a trial whose products, incl. carprofen, were donated)  | Fail                   |
+| Independent review whose included trials were industry-funded (Olivry & Bizikova 2010); label it                    | Pass                   |
 | Product reviews (e.g. Stomodine): maker-funded studies may be read if peer-reviewed and solid, and must be labelled | Allowed, one-off       |
 
 Not yet ruled:
@@ -104,11 +106,10 @@ Not yet ruled:
 - **Contact channel:** the papers page and the food-allergy article invite readers with PDFs to get in touch, but the site has no contact address yet; Thomas chose to leave it vague for now.
 - **Gillis 1999** (dogs recognising their mother's and carer's scent after months apart): only available as an Internet Archive loan (https://archive.org/details/advancesinchemic0000unse_u3z2); Thomas was to borrow it and check its funding.
   If it passes, add it to `how-long-do-dogs-remember-a-person.md`.
-- **Hydrolysed diets:** Jackson 2003 is the key unreadable paper; Ricci 2010 was read and fails (Nestlé Purina).
 - **Horowitz 2017 dog count:** `how-do-dogs-choose-where-to-pee-and-poop.md` says the "olfactory mirror" test had 32 dogs, but a research agent read 36 in Experiment 1 (12 in Experiment 2).
   Check the paper (DOI 10.1016/j.beproc.2017.08.001) and correct the article; `do-dogs-know-how-tall-they-are.md` gives no number.
 - **Getting the papers on the papers page:** an agent (2026-10-29) found these routes.
-  - Free in Thomas's own Chrome: Benediktová 2025 (CC BY), Buckley & Whalley 2019 (Edinburgh repository), Hielm-Björkman 2009 (AJVR), and Guilford 1994, Vaden 2000 and Allenspach 2007 (JVIM).
+  - Free in Thomas's own Chrome: Benediktová 2025 (CC BY), Buckley & Whalley 2019 (Edinburgh repository), Guilford 1994, Vaden 2000 and Allenspach 2007 (JVIM).
   - Bekoff 1979 and possibly Sprague & Anisko 1973 can be read with a free JSTOR account.
   - DTU Library's walk-in PCs are open to non-affiliated visitors and may cover the Elsevier and Wiley papers; email them first.
   - Fallback: DeepDyve ($59 a month, no Elsevier), ASAB (£35, Animal Behaviour), ISAE (about £94, Applied Animal Behaviour Science), Elsevier pay-per-view (about $31.50 each).

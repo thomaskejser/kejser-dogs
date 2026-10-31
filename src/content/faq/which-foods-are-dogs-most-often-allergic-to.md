@@ -74,6 +74,18 @@ references:
     journal: Journal of Veterinary Medical Science
     doi: 10.1292/jvms.21-0162
     openAccess: true
+  - authors: Olivry T. & Bizikova P.
+    year: 2010
+    title: A systematic review of the evidence of reduced allergenicity and clinical benefit of food hydrolysates in dogs with cutaneous adverse food reactions
+    journal: Veterinary Dermatology
+    doi: 10.1111/j.1365-3164.2009.00761.x
+    openAccess: false
+  - authors: Shimakura H. & Kawano K.
+    year: 2021
+    title: Results of food challenge in dogs with cutaneous adverse food reactions
+    journal: Veterinary Dermatology
+    doi: 10.1111/vde.12953
+    openAccess: false
   - authors: Srifawattana N. et al.
     year: 2025
     title: 'Black Soldier Fly (Hermetia illucens) Larvae as a Protein Substitute in Adverse Food Reactions for Canine Dermatitis: Preliminary Results Among Patients'
@@ -143,6 +155,9 @@ If the signs go away, the old foods are given back one at a time (a **food chall
 - **Even food challenges overcall.** In the only blinded, placebo-controlled challenge study I found, 12 allergic dogs were given each food in disguise, alongside dummy meals, without the owners or vets knowing which was which.
   [Half of the dogs also "reacted" to a dummy meal](https://doi.org/10.1111/vde.70041), and dummy meals caused reactions about as often as real foods.
   So some foods that owners blame after an open challenge are probably innocent.
+- **Signs usually come back within a day.** In 46 Japanese dogs given their old food back after an elimination diet, [61% were itchy again within 12 hours](https://doi.org/10.1111/vde.12953), and a quarter within 3 to 6 hours; a few took several days, and one took 10.
+  The itch showed up most often on the legs (57% of dogs) and the face (26%), and no dog had a severe allergic reaction.
+  These dogs got their old food back all at once, so the study shows how fast the signs return, not which food caused them.
 
 ## Which foods cause reactions?
 
@@ -202,19 +217,14 @@ I found no independent report of a dog reacting to an insect-based food.
 ### Hydrolysed diets
 
 In a hydrolysed diet, the protein is broken into fragments that are meant to be too small for the immune system to recognise.
-Whether these diets are safe for a dog allergic to the original protein is the question I most wanted to answer, and I can't.
+Whether these diets are safe for a dog allergic to the original protein has been tested almost only by the companies that sell them.
 
-- The trials that fed hydrolysed diets to dogs allergic to the original protein were funded by the diet makers, or I could not read who funded them.
+- **Almost all the trials were paid for by the diet makers.** An independent review found 11 studies of hydrolysed diets in allergic dogs; [10 were sponsored by Purina, Hill's, Royal Canin or Iams](https://doi.org/10.1111/j.1365-3164.2009.00761.x), and the eleventh named no sponsor.
+  I don't cite those trials directly, but the review is worth reading because its conclusion goes against the sponsors.
+- **Less allergenic, not allergen-free.** The review concluded that hydrolysed diets [reduce reactions but don't eliminate them](https://doi.org/10.1111/j.1365-3164.2009.00761.x): in the controlled studies, up to half of the dogs allergic to soy or chicken got worse on a diet made from the hydrolysed version.
+  The authors suggest these diets are best used for dogs that are not thought to be allergic to the food they are made from.
 - In one independent study, blood from allergic dogs recognised proteins in [hydrolysed fish (6 of 38 dogs), hydrolysed feather (4 of 38) and hydrolysed soy (1 of 28) diets](https://doi.org/10.1111/vde.12536).
   That shows the fragments are not always invisible, but not that the dogs reacted to them.
-
-**If you have the full text of one of these papers, I would like to hear from you.**
-In particular, I could not read the funding statement of:
-
-- Jackson H. A. et al. (2003), "Evaluation of the clinical and allergen specific serum immunoglobulin E responses to oral challenge with cornstarch, corn, soy and a soy hydrolysate diet in dogs with spontaneous food allergy", _Veterinary Dermatology_ 14:181–187, [doi:10.1046/j.1365-3164.2003.00338.x](https://doi.org/10.1046/j.1365-3164.2003.00338.x).
-
-If its funding is independent, I will add it here.
-The other papers I am missing are listed on [papers I am looking for](../pages/papers-i-am-looking-for.md).
 
 ## Special diets are often contaminated
 
@@ -232,6 +242,7 @@ But a contaminated diet can make an elimination diet fail, and make a food look 
 - **Choose an elimination diet from what your dog has not eaten before**, not from a list of "safe" foods.
 - **Avoid close relatives of a confirmed problem food:** beef with milk, chicken with other poultry and possibly fish, wheat with barley.
 - **Don't trust blood, hair or saliva tests** to pick the culprit; a food challenge is the only reliable test, and even that can mislead.
+- **Don't assume a hydrolysed diet is safe** for a dog allergic to the protein it is made from; some dogs still react.
 - **Expect some dogs to react to more than one food.**
 - **Ask your vet** before starting an elimination diet, especially for a young dog that needs a complete diet to grow.
 

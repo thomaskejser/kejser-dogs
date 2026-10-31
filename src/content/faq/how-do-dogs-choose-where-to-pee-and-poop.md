@@ -26,6 +26,12 @@ references:
     journal: Behavioural Processes
     doi: 10.1016/j.beproc.2017.08.001
     openAccess: false
+  - authors: Lisberg A. E. & Snowdon C. T.
+    year: 2009
+    title: 'The effects of sex, gonadectomy and status on investigation patterns of unfamiliar conspecific urine in domestic dogs, Canis familiaris'
+    journal: Animal Behaviour
+    doi: 10.1016/j.anbehav.2008.12.033
+    openAccess: false
   - authors: Biswas S. et al.
     year: 2024
     title: 'What is in a scent? Understanding the role of scent marking in social dynamics and territoriality of free-ranging dogs'
@@ -121,6 +127,9 @@ For peeing, smell clearly matters.
   The dog [barely sniffed his own urine](<https://doi.org/10.1016/S0376-6357(01)00142-5>), and peed over it only 21% of the time, against 87% for other males' urine and 78% for females'.
   That is one dog, so it shows what a dog can do, not what all dogs do.
 - **A test with 32 dogs agreed.** Dogs [sniffed other dogs' urine longer than their own](https://doi.org/10.1016/j.beproc.2017.08.001), and sniffed their own longer when another smell had been added to it.
+- **Dogs read who left the urine.** Forty pet Labradors were led past stakes smeared with urine from unfamiliar dogs or with water.
+  They [sniffed the urine for about 5 seconds and the water for half a second](https://doi.org/10.1016/j.anbehav.2008.12.033), and sniffed urine from unneutered dogs longer than urine from neutered ones.
+  Dogs that ranked lower in their own household sniffed longer than higher-ranking ones, which the authors read as checking out a possible threat.
 - **Marking over marks.** Among free-ranging dogs in India, dogs that came across another dog's urine sometimes [peed over it](https://doi.org/10.1007/s00265-024-03547-3), mostly males over other males' urine, and more often for dogs from neighbouring groups.
   They peed over spots treated with plain water much less often.
 
